@@ -1,0 +1,1601 @@
+<!DOCTYPE html>
+<!-- saved from url=(0023)https://sakina2030.com/ -->
+<html lang="en" dir="ltr"><head><meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sakina — Premium Aviation &amp; Tourism Platform</title>
+<meta name="description" content="Sakina — a premium Saudi airline and tourism activation platform designed to accelerate Vision 2030.">
+<meta name="theme-color" content="#004A2F">
+<meta property="og:title" content="Sakina — Premium Aviation &amp; Tourism Platform">
+<meta property="og:description" content="Premium aviation, destination activation and capital retention in one platform.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://sakinair.com/">
+<link rel="canonical" href="https://sakinair.com/">
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,600;0,700;1,300;1,600&family=Montserrat:wght@300;500;600&family=Amiri:ital,wght@0,400;0,700;1,400&family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --green-deep:#004A2F;--green-mid:#006C35;--green-light:#00843D;
+    --gold:#C9A84C;--gold-light:#E8C97E;--gold-pale:#F5E8C0;
+    --cream:#FAF7F0;--white:#FFFFFF;--charcoal:#1A1A1A;--text-muted:#5A6A5F;
+  }
+  *,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{font-family:'Montserrat',sans-serif;background:var(--charcoal);color:var(--cream);overflow-x:hidden;}
+
+  .geo-pattern{position:absolute;inset:0;opacity:.06;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80'%3E%3Cdefs%3E%3Cpattern id='p' width='80' height='80' patternUnits='userSpaceOnUse'%3E%3Cpath d='M40 0 L80 20 L80 60 L40 80 L0 60 L0 20 Z' fill='none' stroke='%23C9A84C' stroke-width='0.8'/%3E%3Cpath d='M40 10 L70 25 L70 55 L40 70 L10 55 L10 25 Z' fill='none' stroke='%23C9A84C' stroke-width='0.4'/%3E%3Ccircle cx='40' cy='40' r='6' fill='none' stroke='%23C9A84C' stroke-width='0.4'/%3E%3Cpath d='M40 0 L40 10 M80 20 L70 25 M80 60 L70 55 M40 80 L40 70 M0 60 L10 55 M0 20 L10 25' stroke='%23C9A84C' stroke-width='0.4'/%3E%3C/pattern%3E%3C/defs%3E%3Crect width='80' height='80' fill='url(%23p)'/%3E%3C/svg%3E");pointer-events:none;}
+
+  nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:1.2rem 4rem;background:rgba(0,74,47,.92);backdrop-filter:blur(12px);border-bottom:1px solid rgba(201,168,76,.25);transition:all .4s ease;}
+  nav.scrolled{padding:.8rem 4rem;background:rgba(0,40,25,.97);}
+  .nav-logo{font-family:'Cormorant Garamond',serif;font-size:2rem;font-weight:600;color:var(--gold);letter-spacing:.08em;text-decoration:none;}
+  .nav-logo span{font-style:italic;font-weight:300;color:var(--gold-light);}
+  .nav-links{display:flex;gap:2.5rem;list-style:none;}
+  .nav-links a{font-size:.7rem;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:rgba(250,247,240,.75);text-decoration:none;transition:color .3s;}
+  .nav-links a:hover{color:var(--gold);}
+  .nav-cta{font-size:.65rem;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--green-deep);background:linear-gradient(135deg,var(--gold),var(--gold-light));padding:.6rem 1.5rem;text-decoration:none;transition:all .3s;display:inline-block;}
+  .nav-cta:hover{transform:translateY(-1px);box-shadow:0 4px 20px rgba(201,168,76,.4);}
+
+  .hero{position:relative;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden;background:linear-gradient(160deg,#001F14 0%,#003D22 40%,#005A30 70%,#002B18 100%);}
+  .hero .geo-pattern{opacity:.08;}
+  .hero-horizon{position:absolute;bottom:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent 0%,var(--gold) 30%,var(--gold-light) 50%,var(--gold) 70%,transparent 100%);}
+  .hero-glow{position:absolute;width:600px;height:600px;background:radial-gradient(circle,rgba(201,168,76,.12) 0%,transparent 70%);top:50%;left:50%;transform:translate(-50%,-50%);pointer-events:none;}
+  .hero-eyebrow{font-size:.65rem;font-weight:500;letter-spacing:.35em;text-transform:uppercase;color:var(--gold);margin-bottom:1.8rem;opacity:0;animation:fadeUp .9s ease .3s forwards;}
+  .hero-title{font-family:'Cormorant Garamond',serif;font-size:clamp(5rem,12vw,10rem);font-weight:300;line-height:.9;text-align:center;color:var(--cream);letter-spacing:-.01em;opacity:0;animation:fadeUp 1.1s ease .5s forwards;}
+  .hero-title em{font-style:italic;color:var(--gold);font-weight:600;}
+  .hero-divider{width:80px;height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent);margin:2rem auto;opacity:0;animation:fadeIn 1s ease 1s forwards;}
+  .hero-tagline{font-size:clamp(.75rem,1.5vw,.9rem);font-weight:300;letter-spacing:.25em;text-transform:uppercase;color:rgba(250,247,240,.65);text-align:center;max-width:550px;line-height:2;opacity:0;animation:fadeUp 1s ease 1.1s forwards;}
+  .hero-badges{display:flex;gap:2.5rem;margin-top:3rem;opacity:0;animation:fadeUp 1s ease 1.3s forwards;flex-wrap:wrap;justify-content:center;}
+  .hero-badge{display:flex;flex-direction:column;align-items:center;gap:.3rem;padding:1rem 1.5rem;border:1px solid rgba(201,168,76,.25);background:rgba(255,255,255,.03);}
+  .hero-badge-num{font-family:'Cormorant Garamond',serif;font-size:2rem;font-weight:600;color:var(--gold);line-height:1;}
+  .hero-badge-label{font-size:.55rem;letter-spacing:.2em;text-transform:uppercase;color:rgba(250,247,240,.55);}
+  .hero-scroll{position:absolute;bottom:2.5rem;left:50%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:.5rem;opacity:0;animation:fadeIn 1s ease 2s forwards;cursor:pointer;text-decoration:none;}
+  .hero-scroll span{font-size:.55rem;letter-spacing:.25em;text-transform:uppercase;color:var(--gold);}
+  .scroll-line{width:1px;height:40px;background:linear-gradient(to bottom,var(--gold),transparent);animation:scrollPulse 2s ease infinite;}
+
+  section{position:relative;overflow:hidden;}
+  .section-inner{max-width:1200px;margin:0 auto;padding:6rem 4rem;position:relative;z-index:2;}
+  .section-eyebrow{font-size:.6rem;font-weight:600;letter-spacing:.35em;text-transform:uppercase;color:var(--gold);margin-bottom:.8rem;display:flex;align-items:center;gap:1rem;}
+  .section-eyebrow::before{content:'';display:block;width:30px;height:1px;background:var(--gold);}
+  .section-title{font-family:'Cormorant Garamond',serif;font-size:clamp(2.2rem,4vw,3.5rem);font-weight:600;line-height:1.1;color:var(--cream);margin-bottom:1.5rem;}
+  .section-title em{font-style:italic;color:var(--gold);}
+  .section-body{font-size:.85rem;font-weight:300;line-height:2;color:rgba(250,247,240,.65);max-width:620px;}
+  .gold-line{width:60px;height:2px;background:linear-gradient(90deg,var(--gold),var(--gold-light));margin:1.5rem 0;}
+  .gold-divider{height:1px;background:linear-gradient(90deg,transparent 0%,rgba(201,168,76,.3) 30%,rgba(201,168,76,.6) 50%,rgba(201,168,76,.3) 70%,transparent 100%);margin:0;}
+
+  .section-opportunity{background:linear-gradient(160deg,#001A10 0%,#002E1A 100%);}
+  .opportunity-grid{display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:center;margin-top:3rem;}
+  .opp-cards{display:flex;flex-direction:column;gap:1.2rem;}
+  .opp-card{display:flex;align-items:flex-start;gap:1.5rem;padding:1.5rem;border-left:2px solid var(--gold);background:rgba(201,168,76,.04);transition:background .3s,transform .3s;}
+  .opp-card:hover{background:rgba(201,168,76,.08);transform:translateX(6px);}
+  .opp-icon{font-size:1.6rem;flex-shrink:0;line-height:1;}
+  .opp-card-title{font-size:.7rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-light);margin-bottom:.4rem;}
+  .opp-card-body{font-size:.78rem;font-weight:300;line-height:1.7;color:rgba(250,247,240,.6);}
+  .geo-visual{display:flex;align-items:center;justify-content:center;}
+  .geo-circle-outer{position:relative;width:340px;height:340px;border:1px solid rgba(201,168,76,.2);border-radius:50%;display:flex;align-items:center;justify-content:center;animation:spin 60s linear infinite;}
+  .geo-circle-mid{width:240px;height:240px;border:1px solid rgba(201,168,76,.3);border-radius:50%;display:flex;align-items:center;justify-content:center;animation:spinReverse 40s linear infinite;}
+  .geo-circle-inner{width:140px;height:140px;border:2px solid var(--gold);border-radius:50%;background:rgba(201,168,76,.06);display:flex;align-items:center;justify-content:center;animation:spin 25s linear infinite;}
+  .geo-center-text{animation:spinReverse 25s linear infinite;text-align:center;}
+  .geo-center-text p{font-family:'Cormorant Garamond',serif;font-size:2.5rem;font-weight:600;color:var(--gold);line-height:1;}
+  .geo-center-text span{font-size:.55rem;letter-spacing:.2em;text-transform:uppercase;color:rgba(250,247,240,.5);}
+  .geo-dot{position:absolute;width:8px;height:8px;background:var(--gold);border-radius:50%;}
+  .geo-dot:nth-child(1){top:-4px;left:50%;transform:translateX(-50%);}
+  .geo-dot:nth-child(2){bottom:-4px;left:50%;transform:translateX(-50%);}
+  .geo-dot:nth-child(3){left:-4px;top:50%;transform:translateY(-50%);}
+  .geo-dot:nth-child(4){right:-4px;top:50%;transform:translateY(-50%);}
+
+  .section-gap{background:var(--charcoal);}
+  .gap-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;margin-top:3.5rem;border:1px solid rgba(201,168,76,.12);}
+  .gap-item{padding:2.5rem;background:rgba(255,255,255,.02);border:1px solid rgba(201,168,76,.08);position:relative;overflow:hidden;transition:all .4s ease;}
+  .gap-item:hover{background:rgba(201,168,76,.05);border-color:rgba(201,168,76,.25);}
+  .gap-item::after{content:'';position:absolute;top:0;left:0;width:3px;height:100%;background:linear-gradient(to bottom,var(--gold),transparent);opacity:0;transition:opacity .4s;}
+  .gap-item:hover::after{opacity:1;}
+  .gap-number{font-family:'Cormorant Garamond',serif;font-size:3.5rem;font-weight:300;color:rgba(201,168,76,.15);line-height:1;margin-bottom:.5rem;}
+  .gap-title{font-size:.75rem;font-weight:600;letter-spacing:.15em;text-transform:uppercase;color:var(--gold-light);margin-bottom:.8rem;}
+  .gap-body{font-size:.8rem;font-weight:300;line-height:1.8;color:rgba(250,247,240,.55);}
+
+  .section-what{background:linear-gradient(180deg,#001F14 0%,#003020 100%);text-align:center;}
+  .section-what .section-inner{display:flex;flex-direction:column;align-items:center;}
+  .what-pillars{display:flex;gap:0;margin-top:4rem;border:1px solid rgba(201,168,76,.2);width:100%;}
+  .pillar{flex:1;padding:3rem 2rem;text-align:center;border-right:1px solid rgba(201,168,76,.2);position:relative;overflow:hidden;transition:all .4s ease;}
+  .pillar:last-child{border-right:none;}
+  .pillar::before{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;background:linear-gradient(90deg,transparent,var(--gold),transparent);transform:scaleX(0);transition:transform .4s ease;}
+  .pillar:hover::before{transform:scaleX(1);}
+  .pillar:hover{background:rgba(201,168,76,.06);}
+  .pillar-icon{font-size:2.2rem;margin-bottom:1.2rem;display:block;}
+  .pillar-title{font-family:'Cormorant Garamond',serif;font-size:1.5rem;font-weight:600;color:var(--cream);margin-bottom:.8rem;}
+  .pillar-body{font-size:.75rem;font-weight:300;line-height:1.9;color:rgba(250,247,240,.55);}
+
+  .section-ops{background:var(--charcoal);}
+  .ops-phases{display:grid;grid-template-columns:1fr 1fr;gap:3rem;margin-top:3.5rem;}
+  .phase-card{padding:2.5rem;background:rgba(255,255,255,.02);border:1px solid rgba(201,168,76,.15);}
+  .phase-label{display:inline-block;font-size:.6rem;font-weight:600;letter-spacing:.25em;text-transform:uppercase;color:var(--green-deep);background:linear-gradient(135deg,var(--gold),var(--gold-light));padding:.3rem .8rem;margin-bottom:1.5rem;}
+  .phase-title{font-family:'Cormorant Garamond',serif;font-size:1.8rem;font-weight:600;color:var(--cream);margin-bottom:1.2rem;}
+  .phase-list{list-style:none;}
+  .phase-list li{font-size:.8rem;font-weight:300;color:rgba(250,247,240,.65);padding:.5rem 0;border-bottom:1px solid rgba(201,168,76,.08);display:flex;align-items:center;gap:.8rem;line-height:1.6;}
+  .phase-list li::before{content:'◆';color:var(--gold);font-size:.4rem;flex-shrink:0;}
+
+  .section-app{background:linear-gradient(160deg,#001810 0%,#002818 50%,#001A10 100%);}
+  .app-grid{display:grid;grid-template-columns:1fr 1.2fr;gap:5rem;align-items:center;margin-top:3rem;}
+  .app-phone-mockup{position:relative;width:240px;height:480px;background:linear-gradient(160deg,#002A18,#001810);border:1px solid rgba(201,168,76,.3);border-radius:28px;padding:1.5rem;margin:0 auto;box-shadow:0 40px 80px rgba(0,0,0,.6),0 0 0 1px rgba(201,168,76,.1);}
+  .phone-screen{background:#001510;height:100%;border-radius:18px;padding:1.2rem;display:flex;flex-direction:column;gap:.8rem;border:1px solid rgba(201,168,76,.1);overflow:hidden;}
+  .phone-logo{font-family:'Cormorant Garamond',serif;font-size:1.1rem;font-weight:600;color:var(--gold);text-align:center;padding-bottom:.5rem;border-bottom:1px solid rgba(201,168,76,.15);letter-spacing:.1em;}
+  .phone-credit-card{background:linear-gradient(135deg,rgba(201,168,76,.2),rgba(0,100,50,.3));border:1px solid rgba(201,168,76,.3);border-radius:8px;padding:.8rem;margin:.3rem 0;}
+  .credit-label{font-size:.45rem;letter-spacing:.2em;text-transform:uppercase;color:rgba(201,168,76,.7);margin-bottom:.2rem;}
+  .credit-amount{font-family:'Cormorant Garamond',serif;font-size:1.6rem;font-weight:600;color:var(--gold);line-height:1;}
+  .credit-sub{font-size:.4rem;color:rgba(250,247,240,.4);letter-spacing:.12em;}
+  .phone-categories{display:grid;grid-template-columns:1fr 1fr;gap:.4rem;}
+  .phone-cat{background:rgba(255,255,255,.03);border:1px solid rgba(201,168,76,.1);border-radius:6px;padding:.6rem .4rem;text-align:center;}
+  .phone-cat-icon{font-size:.9rem;display:block;margin-bottom:.2rem;}
+  .phone-cat-label{font-size:.38rem;letter-spacing:.1em;color:rgba(250,247,240,.5);text-transform:uppercase;}
+  .phone-cta{margin-top:auto;background:linear-gradient(135deg,var(--gold),var(--gold-light));border-radius:6px;padding:.6rem;text-align:center;font-size:.45rem;font-weight:600;letter-spacing:.15em;text-transform:uppercase;color:var(--green-deep);}
+  .revenue-streams{margin-top:2rem;display:flex;flex-direction:column;gap:1rem;}
+  .revenue-item{display:flex;align-items:flex-start;gap:1.5rem;padding:1.2rem 1.5rem;border:1px solid rgba(201,168,76,.1);background:rgba(255,255,255,.02);transition:all .3s;}
+  .revenue-item:hover{border-color:rgba(201,168,76,.3);background:rgba(201,168,76,.05);}
+  .revenue-num{font-family:'Cormorant Garamond',serif;font-size:2rem;font-weight:600;color:rgba(201,168,76,.4);line-height:1;flex-shrink:0;}
+  .revenue-text strong{display:block;font-size:.75rem;font-weight:600;color:var(--gold-light);margin-bottom:.3rem;letter-spacing:.05em;}
+  .revenue-text p{font-size:.75rem;font-weight:300;color:rgba(250,247,240,.55);line-height:1.7;}
+
+  .section-econ{background:var(--charcoal);}
+  .econ-row{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:start;margin-top:3rem;}
+  .stat-block{padding:2.5rem;background:rgba(0,74,47,.15);border:1px solid rgba(201,168,76,.2);position:relative;overflow:hidden;}
+  .stat-block::before{content:'';position:absolute;top:0;right:0;width:80px;height:80px;background:radial-gradient(circle at top right,rgba(201,168,76,.1),transparent);}
+  .stat-figure{font-family:'Cormorant Garamond',serif;font-size:3.5rem;font-weight:700;color:var(--gold);line-height:1;margin-bottom:.3rem;}
+  .stat-label{font-size:.65rem;letter-spacing:.2em;text-transform:uppercase;color:rgba(250,247,240,.5);margin-bottom:1rem;}
+  .stat-desc{font-size:.8rem;font-weight:300;line-height:1.9;color:rgba(250,247,240,.6);}
+  .calc-breakdown{display:flex;flex-direction:column;gap:1rem;}
+  .calc-row{display:flex;align-items:center;justify-content:space-between;padding:.8rem 1.2rem;border-bottom:1px solid rgba(201,168,76,.1);}
+  .calc-row-label{font-size:.75rem;font-weight:300;color:rgba(250,247,240,.55);}
+  .calc-row-value{font-family:'Cormorant Garamond',serif;font-size:1.3rem;font-weight:600;color:var(--gold);}
+  .calc-total{padding:1.2rem;background:linear-gradient(135deg,rgba(201,168,76,.1),rgba(0,74,47,.2));border:1px solid var(--gold);text-align:center;margin-top:.5rem;}
+  .calc-total-figure{font-family:'Cormorant Garamond',serif;font-size:3rem;font-weight:700;color:var(--gold);line-height:1;}
+  .calc-total-label{font-size:.65rem;letter-spacing:.2em;text-transform:uppercase;color:rgba(250,247,240,.5);margin-top:.3rem;}
+
+  .section-diff{background:linear-gradient(160deg,#001F14 0%,#003020 60%,#002010 100%);text-align:center;}
+  .section-diff .section-inner{display:flex;flex-direction:column;align-items:center;}
+  .diff-statement{font-family:'Cormorant Garamond',serif;font-size:clamp(2rem,4vw,3.5rem);font-weight:300;color:var(--cream);line-height:1.3;max-width:800px;text-align:center;margin-top:2rem;}
+  .diff-statement em{font-style:italic;color:var(--gold);font-weight:600;}
+  .diff-strip{display:flex;width:100%;margin-top:4rem;border-top:1px solid rgba(201,168,76,.2);border-bottom:1px solid rgba(201,168,76,.2);}
+  .diff-strip-item{flex:1;padding:2rem 1.5rem;text-align:center;border-right:1px solid rgba(201,168,76,.15);transition:background .3s;}
+  .diff-strip-item:last-child{border-right:none;}
+  .diff-strip-item:hover{background:rgba(201,168,76,.05);}
+  .diff-strip-icon{font-size:1.5rem;margin-bottom:.6rem;display:block;}
+  .diff-strip-label{font-size:.65rem;font-weight:500;letter-spacing:.15em;text-transform:uppercase;color:rgba(250,247,240,.6);}
+
+  .section-vision{background:var(--charcoal);}
+  .vision-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:3.5rem;}
+  .vision-card{padding:2rem;background:linear-gradient(160deg,rgba(0,74,47,.15),rgba(0,40,25,.1));border:1px solid rgba(201,168,76,.12);transition:all .4s ease;position:relative;overflow:hidden;}
+  .vision-card:hover{border-color:rgba(201,168,76,.35);transform:translateY(-4px);box-shadow:0 20px 40px rgba(0,0,0,.3);}
+  .vision-card-icon{font-size:1.6rem;margin-bottom:1rem;display:block;}
+  .vision-card-title{font-size:.7rem;font-weight:600;letter-spacing:.15em;text-transform:uppercase;color:var(--gold-light);margin-bottom:.7rem;}
+  .vision-card-body{font-size:.78rem;font-weight:300;line-height:1.8;color:rgba(250,247,240,.55);}
+
+  .section-gov{background:linear-gradient(160deg,#001810 0%,#002818 100%);}
+  .gov-grid{display:grid;grid-template-columns:1fr 1fr;gap:0;margin-top:3.5rem;border:1px solid rgba(201,168,76,.15);}
+  .gov-side{padding:3rem;}
+  .gov-side:first-child{border-right:1px solid rgba(201,168,76,.15);}
+  .gov-side-label{font-size:.6rem;font-weight:600;letter-spacing:.25em;text-transform:uppercase;color:var(--gold);margin-bottom:1.5rem;display:flex;align-items:center;gap:.8rem;}
+  .gov-side-label::after{content:'';flex:1;height:1px;background:rgba(201,168,76,.2);}
+  .gov-list{list-style:none;display:flex;flex-direction:column;gap:.8rem;}
+  .gov-list li{font-size:.82rem;font-weight:300;color:rgba(250,247,240,.65);display:flex;align-items:center;gap:1rem;padding:.6rem 0;border-bottom:1px solid rgba(255,255,255,.04);line-height:1.5;}
+  .gov-list li::before{content:'▸';color:var(--gold);font-size:.6rem;flex-shrink:0;}
+
+  .section-final{background:linear-gradient(160deg,#001F14 0%,#003520 40%,#001A10 100%);min-height:80vh;display:flex;align-items:center;text-align:center;}
+  .section-final .section-inner{display:flex;flex-direction:column;align-items:center;}
+  .final-crown{font-size:2.5rem;margin-bottom:1.5rem;animation:float 4s ease-in-out infinite;}
+  .final-title{font-family:'Cormorant Garamond',serif;font-size:clamp(3rem,7vw,6rem);font-weight:300;color:var(--cream);line-height:1;letter-spacing:.05em;margin-bottom:.5rem;}
+  .final-title span{color:var(--gold);font-weight:700;}
+  .final-subtitle{font-family:'Cormorant Garamond',serif;font-size:1.2rem;font-weight:300;font-style:italic;color:rgba(201,168,76,.7);letter-spacing:.15em;margin-bottom:2.5rem;}
+  .final-body{font-size:.85rem;font-weight:300;line-height:2;color:rgba(250,247,240,.55);max-width:580px;text-align:center;margin-bottom:3rem;}
+  .final-cta-group{display:flex;gap:1.5rem;flex-wrap:wrap;justify-content:center;}
+  .btn-primary{font-size:.65rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--green-deep);background:linear-gradient(135deg,var(--gold),var(--gold-light));padding:1rem 2.5rem;text-decoration:none;transition:all .3s;display:inline-block;}
+  .btn-primary:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(201,168,76,.4);}
+  .btn-ghost{font-size:.65rem;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);border:1px solid rgba(201,168,76,.4);padding:1rem 2.5rem;text-decoration:none;transition:all .3s;display:inline-block;}
+  .btn-ghost:hover{background:rgba(201,168,76,.08);border-color:var(--gold);}
+  .v2030-badge{display:flex;align-items:center;gap:.8rem;margin-top:3rem;padding:.8rem 2rem;border:1px solid rgba(201,168,76,.2);background:rgba(201,168,76,.04);}
+  .v2030-badge span{font-size:.6rem;letter-spacing:.2em;text-transform:uppercase;color:rgba(250,247,240,.45);}
+  .v2030-badge strong{font-family:'Cormorant Garamond',serif;font-size:1rem;font-weight:600;color:var(--gold);letter-spacing:.1em;}
+
+  footer{background:#000D07;padding:2.5rem 4rem;display:flex;align-items:center;justify-content:space-between;border-top:1px solid rgba(201,168,76,.15);flex-wrap:wrap;gap:1rem;}
+  .footer-logo{font-family:'Cormorant Garamond',serif;font-size:1.5rem;font-weight:600;color:var(--gold);letter-spacing:.08em;}
+  .footer-copy{font-size:.6rem;letter-spacing:.15em;color:rgba(250,247,240,.25);}
+  .footer-tag{font-size:.6rem;letter-spacing:.12em;color:rgba(201,168,76,.4);text-transform:uppercase;}
+
+  /* ── FOUNDER SECTION ── */
+  .founder-grid{display:grid;grid-template-columns:1fr 1.6fr;gap:5rem;align-items:center;margin-top:3rem;}
+  .founder-photo-wrap{position:relative;}
+  .founder-photo-wrap img{width:100%;display:block;object-fit:cover;filter:contrast(1.04) brightness(0.97);}
+  .founder-corner-tl{position:absolute;top:-8px;left:-8px;width:40px;height:40px;border-top:2px solid var(--gold);border-left:2px solid var(--gold);pointer-events:none;}
+  .founder-corner-br{position:absolute;bottom:-8px;right:-8px;width:40px;height:40px;border-bottom:2px solid var(--gold);border-right:2px solid var(--gold);pointer-events:none;}
+
+  /* ── MUSIC TOGGLE ── */
+  .music-toggle{position:fixed;bottom:1.8rem;right:1.8rem;z-index:200;width:54px;height:54px;border-radius:50%;background:rgba(0,40,25,.85);backdrop-filter:blur(10px);border:1px solid rgba(201,168,76,.4);display:flex;align-items:center;justify-content:center;cursor:pointer;transition:all .3s ease;box-shadow:0 8px 24px rgba(0,0,0,.35);}
+  .music-toggle:hover{border-color:var(--gold);background:rgba(0,60,35,.9);transform:translateY(-2px);}
+  .music-toggle svg{width:20px;height:20px;fill:var(--gold);transition:fill .3s;}
+  .music-bars{display:flex;align-items:center;gap:3px;height:18px;}
+  .music-bars span{display:block;width:3px;background:var(--gold);border-radius:2px;animation:musicBar 1s ease-in-out infinite;}
+  .music-bars span:nth-child(1){height:6px;animation-delay:0s;}
+  .music-bars span:nth-child(2){height:14px;animation-delay:.2s;}
+  .music-bars span:nth-child(3){height:9px;animation-delay:.4s;}
+  .music-toggle.playing .music-bars span{animation-play-state:running;}
+  .music-toggle:not(.playing) .music-bars span{animation-play-state:paused;height:4px !important;}
+  @keyframes musicBar{0%,100%{height:4px;}50%{height:16px;}}
+  @media(max-width:768px){
+    .music-toggle{bottom:1.2rem;right:1.2rem;width:48px;height:48px;}
+  }
+
+  .reveal{opacity:0;transform:translateY(30px);transition:opacity .8s ease,transform .8s ease;}
+  .reveal.visible{opacity:1;transform:translateY(0);}
+  .reveal-delay-1{transition-delay:.1s;}
+  .reveal-delay-2{transition-delay:.2s;}
+  .reveal-delay-3{transition-delay:.35s;}
+  .reveal-delay-4{transition-delay:.5s;}
+
+  @keyframes fadeUp{from{opacity:0;transform:translateY(25px);}to{opacity:1;transform:translateY(0);}}
+  @keyframes fadeIn{from{opacity:0;}to{opacity:1;}}
+  @keyframes spin{from{transform:rotate(0deg);}to{transform:rotate(360deg);}}
+  @keyframes spinReverse{from{transform:rotate(0deg);}to{transform:rotate(-360deg);}}
+  @keyframes scrollPulse{0%,100%{opacity:1;}50%{opacity:.3;}}
+  @keyframes float{0%,100%{transform:translateY(0);}50%{transform:translateY(-10px);}}
+
+  @media(max-width:768px){
+    nav{padding:1rem 1.5rem;}
+    .nav-links{display:none;}
+    nav.scrolled{padding:.7rem 1.5rem;}
+    .section-inner{padding:4rem 1.5rem;}
+    .opportunity-grid,.app-grid,.ops-phases,.econ-row,.gap-grid,.gov-grid,.vision-grid{grid-template-columns:1fr;gap:2rem;}
+    .geo-visual{display:none;}
+    .what-pillars{flex-direction:column;}
+    .diff-strip{flex-wrap:wrap;}
+    .diff-strip-item{flex:0 0 50%;border-bottom:1px solid rgba(201,168,76,.15);}
+    footer{flex-direction:column;text-align:center;}
+
+    /* ── FOUNDER MOBILE FIX ── */
+    .founder-grid{
+      grid-template-columns:1fr !important;
+      gap:2.5rem !important;
+    }
+    .founder-photo-wrap{
+      width:100% !important;
+      /* match the photo's true aspect ratio so the full image always shows, no awkward cropping */
+      aspect-ratio: 851 / 1280 !important;
+      height:auto !important;
+      overflow:hidden !important;
+    }
+    .founder-photo-wrap img{
+      width:100% !important;
+      height:100% !important;
+      object-fit:cover !important;
+      object-position:center top !important;
+    }
+    /* hide decorative corners on mobile — they clip awkwardly */
+    .founder-corner-tl,
+    .founder-corner-br{display:none;}
+  }
+
+  /* ══ LANGUAGE TOGGLE ══ */
+  .nav-right{display:flex;align-items:center;gap:1rem;}
+  .lang-toggle{font-family:inherit;font-size:.62rem;font-weight:600;letter-spacing:.18em;text-transform:uppercase;
+    color:var(--gold);background:transparent;border:1px solid rgba(201,168,76,.4);padding:.55rem 1rem;
+    cursor:pointer;transition:all .3s;line-height:1;}
+  .lang-toggle:hover{background:rgba(201,168,76,.1);border-color:var(--gold);}
+  .lang-toggle:focus-visible,.music-toggle:focus-visible,a:focus-visible{outline:2px solid var(--gold-light);outline-offset:3px;}
+
+  /* ══ ARABIC TYPOGRAPHY ══ */
+  [dir="rtl"] body{font-family:'Tajawal','Montserrat',sans-serif;}
+  [dir="rtl"] .nav-logo,[dir="rtl"] .hero-title,[dir="rtl"] .section-title,[dir="rtl"] .pillar-title,
+  [dir="rtl"] .phase-title,[dir="rtl"] .geo-center-text p,[dir="rtl"] .hero-badge-num,[dir="rtl"] .gap-number,
+  [dir="rtl"] .stat-figure,[dir="rtl"] .calc-row-value,[dir="rtl"] .calc-total-figure,[dir="rtl"] .diff-statement,
+  [dir="rtl"] .final-title,[dir="rtl"] .final-subtitle,[dir="rtl"] .footer-logo,[dir="rtl"] .revenue-num,
+  [dir="rtl"] .credit-amount,[dir="rtl"] .phone-logo,[dir="rtl"] .v2030-badge strong{font-family:'Amiri',serif;}
+  [dir="rtl"] [style*="Cormorant"]{font-family:'Amiri',serif !important;}
+  /* Arabic is a connected script — tracking breaks the joins */
+  [dir="rtl"] *{letter-spacing:normal !important;}
+  [dir="rtl"] .section-body,[dir="rtl"] .gap-body,[dir="rtl"] .opp-card-body,[dir="rtl"] .pillar-body,
+  [dir="rtl"] .vision-card-body,[dir="rtl"] .stat-desc,[dir="rtl"] .final-body{line-height:2.05;}
+  [dir="rtl"] .hero-tagline{line-height:2.2;}
+
+  /* ══ RTL MIRRORING ══ */
+  [dir="rtl"] .opp-card{border-left:none;border-right:2px solid var(--gold);}
+  [dir="rtl"] .opp-card:hover{transform:translateX(-6px);}
+  [dir="rtl"] .gap-item::after{left:auto;right:0;}
+  [dir="rtl"] .pillar{border-right:none;border-left:1px solid rgba(201,168,76,.2);}
+  [dir="rtl"] .pillar:last-child{border-left:none;}
+  [dir="rtl"] .diff-strip-item{border-right:none;border-left:1px solid rgba(201,168,76,.15);}
+  [dir="rtl"] .diff-strip-item:last-child{border-left:none;}
+  [dir="rtl"] .gov-side:first-child{border-right:none;border-left:1px solid rgba(201,168,76,.15);}
+  [dir="rtl"] .stat-block::before{right:auto;left:0;background:radial-gradient(circle at top left,rgba(201,168,76,.1),transparent);}
+  [dir="rtl"] .music-toggle{right:auto;left:1.8rem;}
+  [dir="rtl"] .founder-corner-tl{left:auto;right:-8px;border-left:none;border-right:2px solid var(--gold);}
+  [dir="rtl"] .founder-corner-br{right:auto;left:-8px;border-right:none;border-left:2px solid var(--gold);}
+  [dir="rtl"] .hero-scroll{left:50%;right:auto;transform:translateX(-50%);}
+  [dir="rtl"] .section-eyebrow::before{order:-1;}
+  @media(max-width:768px){
+    [dir="rtl"] .music-toggle{left:1.2rem;right:auto;}
+    [dir="rtl"] .gov-side:first-child{border-left:none;}
+    [dir="rtl"] .pillar{border-left:none;}
+  }
+  /* Keep Latin figures and currency reading left-to-right inside Arabic text */
+  [dir="rtl"] .hero-badge-num,[dir="rtl"] .stat-figure,[dir="rtl"] .calc-row-value,
+  [dir="rtl"] .calc-total-figure,[dir="rtl"] .revenue-num,[dir="rtl"] .gap-number,
+  [dir="rtl"] .geo-center-text p,[dir="rtl"] .credit-amount,[dir="rtl"] .num{
+    direction:ltr;unicode-bidi:isolate;}
+
+  @media(prefers-reduced-motion:reduce){
+    *,*::before,*::after{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important;}
+    .reveal{opacity:1 !important;transform:none !important;}
+  }
+
+  @media(max-width:768px){
+    .lang-toggle{padding:.5rem .8rem;font-size:.58rem;}
+  }
+
+  /* ═════════ INVESTOR CONVERSION LAYER ═════════ */
+  :root{--emerald:#00A86B;--emerald-2:#00C27A;--ink-green:#00140C;--topbar-h:46px;}
+  body.has-topbar nav{top:var(--topbar-h);}
+  body.has-topbar.topbar-hidden nav{top:0;}
+
+  /* top bar */
+  .ib-top{position:fixed;top:0;left:0;right:0;height:var(--topbar-h);z-index:110;display:flex;align-items:center;justify-content:center;gap:1.4rem;padding:0 1.5rem;
+    background:linear-gradient(90deg,#006C35 0%,#00843D 45%,#00A86B 100%);color:var(--cream);font-size:.78rem;box-shadow:0 2px 18px rgba(0,0,0,.25);transition:transform .45s ease;}
+  body.topbar-hidden .ib-top{transform:translateY(-100%);}
+  .ib-live{display:inline-flex;align-items:center;gap:.55rem;font-weight:600;letter-spacing:.04em;}
+  .ib-dot{width:9px;height:9px;border-radius:50%;background:var(--gold-light);box-shadow:0 0 0 0 rgba(232,201,126,.8);animation:ibPulse 1.8s infinite;flex-shrink:0;}
+  .ib-top .ib-sep{opacity:.45}
+  .ib-link{background:none;border:none;color:var(--cream);font:inherit;font-weight:600;cursor:pointer;text-decoration:underline;text-underline-offset:3px;text-decoration-color:rgba(250,247,240,.45);padding:.3rem .2rem;}
+  .ib-link:hover{color:var(--gold-light);text-decoration-color:var(--gold-light);}
+  .ib-chip{display:inline-flex;align-items:center;gap:.4rem;background:var(--cream);color:var(--green-deep);border:none;border-radius:999px;font:inherit;font-weight:700;font-size:.72rem;padding:.42rem 1rem;cursor:pointer;text-decoration:none;transition:transform .25s,box-shadow .25s;}
+  .ib-chip svg{width:14px;height:14px;flex-shrink:0}.ib-chip,.ib-link,.ib-live{white-space:nowrap}
+  .ib-chip:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,.25);color:var(--green-deep);}
+
+  /* buttons */
+  .btn-live{position:relative;overflow:hidden;display:inline-flex;align-items:center;justify-content:center;gap:.6rem;font-family:'Montserrat',sans-serif;font-size:.72rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+    padding:1.05rem 2.1rem;border-radius:999px;text-decoration:none;cursor:pointer;border:none;transition:transform .25s,box-shadow .25s,background .25s;min-height:48px;}
+  .btn-live svg{width:16px;height:16px;flex-shrink:0}
+  .btn-gold{color:var(--green-deep);background:linear-gradient(135deg,#E8C97E 0%,#C9A84C 55%,#E8C97E 100%);background-size:200% 100%;box-shadow:0 10px 30px rgba(201,168,76,.35);}
+  .btn-gold:hover{background-position:100% 0;transform:translateY(-2px);box-shadow:0 14px 38px rgba(201,168,76,.5);color:var(--green-deep);}
+  .btn-gold::after{content:'';position:absolute;top:0;left:-60%;width:40%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.55),transparent);transform:skewX(-20deg);animation:ibShine 4.5s ease-in-out infinite;}
+  .btn-emerald{color:#fff;background:linear-gradient(135deg,var(--emerald) 0%,#008A4F 100%);box-shadow:0 10px 30px rgba(0,168,107,.35);}
+  .btn-emerald:hover{transform:translateY(-2px);box-shadow:0 14px 38px rgba(0,168,107,.5);color:#fff;}
+  .btn-outline{color:var(--cream);background:rgba(255,255,255,.04);border:1px solid rgba(232,201,126,.55);}
+  .btn-outline:hover{background:rgba(232,201,126,.12);border-color:var(--gold-light);color:var(--gold-light);transform:translateY(-2px);}
+
+  .hero-ctas{display:flex;flex-wrap:wrap;gap:1rem;justify-content:center;margin-top:2.6rem;opacity:0;animation:fadeUp 1s ease 1.6s forwards;position:relative;z-index:2;}
+  .hero-note{margin-top:1rem;font-size:.7rem;color:rgba(250,247,240,.55);letter-spacing:.06em;opacity:0;animation:fadeIn 1s ease 2s forwards;position:relative;z-index:2;}
+  .hero-glow{animation:ibGlow 7s ease-in-out infinite;}
+  .hero-badge{transition:transform .3s;}
+  .hero-badge:hover{transform:translateY(-4px);}
+  .opp-card:hover{transform:translateY(-3px);background:rgba(201,168,76,.09);}
+
+  .app-actions{display:flex;flex-wrap:wrap;gap:1rem;margin-top:2.2rem;}
+
+  /* invest desk */
+  .section-invest{position:relative;overflow:hidden;background:radial-gradient(1200px 600px at 85% 0%,rgba(0,168,107,.22),transparent 60%),radial-gradient(900px 500px at 0% 100%,rgba(201,168,76,.14),transparent 60%),linear-gradient(160deg,#00140C 0%,#002A18 55%,#001A10 100%);}
+  .invest-grid{display:grid;grid-template-columns:.9fr 1.3fr;gap:3.5rem;align-items:stretch;margin-top:2.5rem;}
+  .founder-card{position:relative;border-radius:22px;padding:2.2rem;background:linear-gradient(180deg,rgba(255,255,255,.06),rgba(255,255,255,.02));border:1px solid rgba(201,168,76,.28);display:flex;flex-direction:column;gap:1.3rem;}
+  .fc-photo-wrap{position:relative;width:170px;height:170px;margin:0 auto .4rem;}
+  .fc-photo-wrap::before{content:'';position:absolute;inset:-6px;border-radius:50%;background:conic-gradient(from 0deg,var(--gold),var(--emerald-2),var(--gold-light),var(--gold));animation:spin 9s linear infinite;}
+  .fc-photo{position:relative;width:170px;height:170px;border-radius:50%;object-fit:cover;object-position:center 20%;border:5px solid #00140C;display:block;background:#003D22;}
+  .fc-online{position:absolute;bottom:12px;right:14px;width:22px;height:22px;border-radius:50%;background:var(--emerald-2);border:4px solid #00140C;animation:ibPulseG 2s infinite;}
+  [dir="rtl"] .fc-online{right:auto;left:14px;}
+  .fc-name{font-family:'Cormorant Garamond',serif;font-size:1.9rem;font-weight:600;color:var(--gold-light);text-align:center;line-height:1.1;}
+  .fc-role{font-size:.62rem;letter-spacing:.22em;text-transform:uppercase;color:rgba(250,247,240,.6);text-align:center;margin-top:-.8rem;}
+  .fc-quote{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:1.25rem;line-height:1.5;color:var(--cream);text-align:center;}
+  .fc-list{list-style:none;display:flex;flex-direction:column;gap:.7rem;border-top:1px solid rgba(201,168,76,.18);padding-top:1.3rem;}
+  .fc-list li{display:flex;gap:.75rem;align-items:flex-start;font-size:.82rem;line-height:1.6;color:rgba(250,247,240,.8);}
+  .fc-list li::before{content:'';flex-shrink:0;width:18px;height:18px;margin-top:.1rem;border-radius:50%;background:rgba(0,168,107,.2) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2300C27A' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12l5 5L19 7'/%3E%3C/svg%3E") center/12px no-repeat;}
+
+  .desk{border-radius:22px;background:rgba(250,247,240,.97);color:var(--charcoal);box-shadow:0 30px 80px rgba(0,0,0,.45);overflow:hidden;display:flex;flex-direction:column;}
+  .desk-tabs{display:grid;grid-template-columns:1fr 1fr;background:#EFE8D8;}
+  .desk-tab{font-family:'Montserrat',sans-serif;font-size:.74rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:1.2rem 1rem;border:none;background:none;color:#5A6A5F;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:.55rem;border-bottom:3px solid transparent;transition:all .25s;}
+  .desk-tab svg{width:17px;height:17px}
+  .desk-tab[aria-selected="true"]{background:#fff;color:var(--green-deep);border-bottom-color:var(--emerald);}
+  .desk-panel{padding:2.2rem;flex-grow:1;background:#fff;}
+  .desk-panel[hidden]{display:none;}
+  .lf-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.1rem;}
+  .lf-field{display:flex;flex-direction:column;gap:.45rem;}
+  .lf-field.full{grid-column:1/-1;}
+  .lf-field label{font-size:.72rem;font-weight:600;color:#2E3B35;letter-spacing:.02em;}
+  .lf-field input,.lf-field select,.lf-field textarea{font-family:inherit;font-size:.92rem;color:var(--charcoal);background:#FAF7F0;border:1.5px solid #E0D6C2;border-radius:12px;padding:.85rem 1rem;min-height:48px;width:100%;transition:border-color .2s,box-shadow .2s,background .2s;}
+  .lf-field textarea{min-height:96px;resize:vertical;}
+  .lf-field input:focus,.lf-field select:focus,.lf-field textarea:focus{outline:none;border-color:var(--emerald);background:#fff;box-shadow:0 0 0 4px rgba(0,168,107,.15);}
+  .lf-chips{display:flex;flex-wrap:wrap;gap:.5rem;}
+  .lf-chips input{position:absolute;opacity:0;pointer-events:none;}
+  .lf-chips label{font-size:.78rem;font-weight:600;color:#2E3B35;border:1.5px solid #E0D6C2;border-radius:999px;padding:.55rem 1rem;cursor:pointer;transition:all .2s;background:#FAF7F0;}
+  .lf-chips input:checked + label{background:var(--green-deep);border-color:var(--green-deep);color:#fff;}
+  .lf-chips input:focus-visible + label{outline:2px solid var(--emerald);outline-offset:2px;}
+  .lf-foot{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:1rem;margin-top:1.4rem;}
+  .lf-privacy{font-size:.7rem;color:#5A6A5F;max-width:300px;line-height:1.6;}
+  .lf-status{margin-top:1rem;font-size:.85rem;font-weight:600;min-height:1.2em;}
+  .lf-status.ok{color:#007A4D}.lf-status.err{color:#B3261E}
+  .lf-success{display:none;text-align:center;padding:1.5rem .5rem;}
+  .lf-success.show{display:block;}
+  .lf-success-icon{width:64px;height:64px;border-radius:50%;margin:0 auto 1rem;background:rgba(0,168,107,.14);display:flex;align-items:center;justify-content:center;}
+  .lf-success h3{font-family:'Cormorant Garamond',serif;font-size:1.9rem;color:var(--green-deep);margin-bottom:.5rem;}
+  .lf-success p{font-size:.9rem;color:#2E3B35;margin-bottom:1.4rem;line-height:1.7;}
+  .cal-intro{display:flex;align-items:center;gap:1rem;margin-bottom:1.2rem;}
+  .cal-intro img{width:52px;height:52px;border-radius:50%;object-fit:cover;object-position:center 20%;border:2px solid var(--gold);}
+  .cal-intro strong{display:block;font-size:.95rem;color:var(--green-deep);}
+  .cal-intro span{font-size:.78rem;color:#5A6A5F;}
+  .cal-embed{min-height:640px;border-radius:14px;overflow:hidden;background:#FAF7F0;display:flex;align-items:center;justify-content:center;color:#5A6A5F;font-size:.85rem;}
+  .cal-embed.loaded{display:block;background:none;}
+
+  /* sticky bar */
+  .ib-sticky{position:fixed;left:50%;bottom:18px;z-index:150;width:min(1040px,calc(100% - 2rem));transform:translate(-50%,140%);transition:transform .5s cubic-bezier(.2,.8,.2,1);
+    display:flex;align-items:center;gap:1rem;padding:.6rem .6rem .6rem .7rem;border-radius:999px;background:rgba(0,26,16,.92);backdrop-filter:blur(14px);border:1px solid rgba(201,168,76,.35);box-shadow:0 18px 50px rgba(0,0,0,.45);}
+  body.sticky-on .ib-sticky{transform:translate(-50%,0);}
+  .ib-sticky img{width:44px;height:44px;border-radius:50%;object-fit:cover;object-position:center 20%;border:2px solid var(--gold);flex-shrink:0;}
+  .ib-s-text{display:flex;flex-direction:column;line-height:1.25;min-width:0;}
+  .ib-s-text strong{font-size:.82rem;color:var(--cream);white-space:nowrap;}
+  .ib-s-text span{font-size:.68rem;color:rgba(250,247,240,.6);white-space:nowrap;}
+  .ib-s-form{display:flex;align-items:center;gap:.4rem;margin-inline-start:auto;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);border-radius:999px;padding:.25rem .25rem .25rem 1rem;}
+  [dir="rtl"] .ib-s-form{padding:.25rem 1rem .25rem .25rem;}
+  .ib-s-form input{background:none;border:none;color:var(--cream);font:inherit;font-size:.82rem;width:210px;min-height:38px;}
+  .ib-s-form input::placeholder{color:rgba(250,247,240,.5);}
+  .ib-s-form input:focus{outline:none;}
+  .ib-s-form .btn-live,.ib-s-actions .btn-live{padding:.7rem 1.2rem;font-size:.64rem;min-height:40px;letter-spacing:.1em;}
+  .ib-s-actions{display:flex;gap:.45rem;flex-shrink:0;}
+  .ib-s-close{background:none;border:none;color:rgba(250,247,240,.55);cursor:pointer;width:34px;height:34px;border-radius:50%;flex-shrink:0;font-size:1.1rem;line-height:1;}
+  .ib-s-close:hover{color:var(--cream);background:rgba(255,255,255,.08);}
+  .ib-s-msg{font-size:.78rem;color:var(--gold-light);font-weight:600;margin-inline-start:auto;display:none;}
+  .ib-sticky.sent .ib-s-form{display:none}.ib-sticky.sent .ib-s-msg{display:block}
+  body.sticky-on .music-toggle{bottom:6.2rem;}
+
+  body.has-topbar .hero{padding:calc(var(--topbar-h) + 7rem) 0 7rem;}
+  @media(max-width:600px){
+    body.has-topbar .hero{padding:calc(var(--topbar-h) + 6rem) 0 5rem;}
+    .hero-ctas{width:100%;padding:0 1.5rem;box-sizing:border-box;}
+    .hero-note{padding:0 1.5rem;text-align:center;}
+    .hero .hero-scroll{display:none;}
+  }
+  /* gold shimmering top bar */
+  .ib-top{background:linear-gradient(90deg,#C9A84C 0%,#E8C97E 25%,#F5E2A8 50%,#E8C97E 75%,#C9A84C 100%);background-size:200% 100%;animation:ibShift 6s linear infinite;color:var(--green-deep);overflow:hidden;box-shadow:0 4px 22px rgba(201,168,76,.35);}
+  .ib-top::after{content:'';position:absolute;top:0;left:-30%;width:22%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.65),transparent);transform:skewX(-20deg);animation:ibShineBar 5s ease-in-out infinite;pointer-events:none;}
+  .ib-top > *{position:relative;z-index:1;}
+  .ib-top .ib-live{color:var(--green-deep);}
+  .ib-top .ib-dot{background:#006C35;animation:ibPulseG 1.8s infinite;}
+  .ib-top .ib-link{color:var(--green-deep);text-decoration-color:rgba(0,74,47,.4);}
+  .ib-top .ib-link:hover{color:#00140C;text-decoration-color:#00140C;}
+  .ib-top .ib-chip{background:var(--green-deep);color:var(--gold-light);}
+  .ib-top .ib-chip:hover{color:#fff;background:#00140C;}
+  .ib-top .ib-sep{color:var(--green-deep);}
+  /* Invest button — same gold shimmer as Explore Platform */
+  .nav-cta{position:relative;overflow:hidden;border-radius:999px;padding:.72rem 1.7rem;font-weight:700;background:linear-gradient(135deg,#E8C97E 0%,#C9A84C 55%,#E8C97E 100%);background-size:200% 100%;box-shadow:0 8px 24px rgba(201,168,76,.35);transition:background-position .4s,transform .25s,box-shadow .25s;}
+  .nav-cta:hover{background-position:100% 0;transform:translateY(-2px);box-shadow:0 12px 30px rgba(201,168,76,.5);color:var(--green-deep);}
+  .nav-cta::after{content:'';position:absolute;top:0;left:-60%;width:40%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.6),transparent);transform:skewX(-20deg);animation:ibShine 4.5s ease-in-out infinite;}
+  @keyframes ibShift{0%{background-position:0% 0;}100%{background-position:200% 0;}}
+  @keyframes ibShineBar{0%,55%{left:-30%;}100%{left:130%;}}
+  @keyframes ibPulse{0%{box-shadow:0 0 0 0 rgba(232,201,126,.75);}70%{box-shadow:0 0 0 10px rgba(232,201,126,0);}100%{box-shadow:0 0 0 0 rgba(232,201,126,0);}}
+  @keyframes ibPulseG{0%{box-shadow:0 0 0 0 rgba(0,194,122,.7);}70%{box-shadow:0 0 0 12px rgba(0,194,122,0);}100%{box-shadow:0 0 0 0 rgba(0,194,122,0);}}
+  @keyframes ibShine{0%,60%{left:-60%;}100%{left:130%;}}
+  @keyframes ibGlow{0%,100%{opacity:.8;transform:translate(-50%,-50%) scale(1);}50%{opacity:1;transform:translate(-50%,-50%) scale(1.15);}}
+
+  @media(max-width:1024px){
+    .ib-s-text span{display:none}
+    .ib-s-form input{width:150px}
+  }
+  @media(max-width:900px){
+    .invest-grid{grid-template-columns:1fr;}
+    .ib-top .ib-hide-md{display:none;}
+    .ib-s-form,.ib-s-text span{display:none;}
+    .ib-sticky{border-radius:18px;}
+    .ib-s-actions{margin-inline-start:auto;}
+  }
+  @media(max-width:600px){
+    :root{--topbar-h:42px;}
+    .ib-top{font-size:.7rem;gap:.7rem;justify-content:space-between;}
+    .ib-top .ib-hide-sm{display:none;}
+    .lf-grid{grid-template-columns:1fr;}
+    .desk-panel{padding:1.4rem;}
+    .founder-card{padding:1.6rem;}
+    .ib-s-text{display:none;}
+    .ib-sticky{bottom:10px;padding:.5rem;gap:.5rem;}
+    .ib-s-actions{flex-grow:1;}
+    .ib-s-actions .btn-live{flex:1;padding:.7rem .6rem;}
+    .hero-ctas .btn-live{width:100%;}
+    body.sticky-on .music-toggle{bottom:5.4rem;}
+    .cal-embed{min-height:700px;}
+  }
+
+
+  /* ══ INTERNATIONAL PHONE INPUT ══ */
+  .lf-phone-combo{display:grid;grid-template-columns:94px minmax(0,1fr);gap:.4rem;align-items:stretch;position:relative;}
+  .lf-phone-combo input{min-height:48px;direction:ltr;text-align:left;min-width:0;}
+  .phone-country-wrap{position:relative;}
+  .phone-country-btn{width:100%;height:48px;display:flex;align-items:center;justify-content:flex-start;gap:.32rem;font-family:'Montserrat',sans-serif;font-size:.78rem;font-weight:600;color:#2E3B35;background:#FAF7F0;border:1.5px solid #E0D6C2;border-radius:12px;padding:.5rem .45rem;cursor:pointer;}
+  .phone-country-btn:hover,.phone-country-btn:focus{outline:none;border-color:var(--emerald);background:#fff;box-shadow:0 0 0 4px rgba(0,168,107,.12);}
+  .phone-flag-img{width:20px;height:15px;object-fit:cover;border-radius:2px;box-shadow:0 0 0 1px rgba(0,0,0,.08);flex:0 0 auto;}
+  .phone-caret{font-size:.65rem;color:#66756d;margin-left:auto;}
+  .phone-country-menu{position:absolute;z-index:50;top:calc(100% + 6px);left:0;width:210px;max-height:260px;overflow:auto;background:#fff;border:1px solid #D8CFBD;border-radius:12px;box-shadow:0 16px 36px rgba(0,0,0,.18);padding:.35rem;display:none;}
+  .phone-country-menu.open{display:block;}
+  .phone-country-option{width:100%;display:flex;align-items:center;gap:.55rem;border:0;background:transparent;border-radius:8px;padding:.55rem .65rem;font:inherit;font-size:.8rem;color:#2E3B35;cursor:pointer;text-align:left;}
+  .phone-country-option:hover,.phone-country-option:focus{background:#F4F0E7;outline:none;}
+  .phone-country-option .code{margin-left:auto;font-weight:600;color:#526159;}
+  @media(max-width:600px){.lf-phone-combo{grid-template-columns:90px minmax(0,1fr);}.phone-country-menu{width:200px;}}
+
+
+  /* Cloudflare Turnstile */
+  .lf-turnstile{grid-column:1/-1;min-height:0;margin-top:.15rem;}
+  .lf-turnstile .cf-turnstile{width:100%;}
+  .lf-turnstile-note{font-size:.66rem;color:#6D766F;line-height:1.45;margin-top:.25rem;}
+
+</style>
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+</head>
+<body class="has-topbar">
+
+<!-- INVESTOR TOP BAR -->
+<div class="ib-top" id="ibTop" role="region" aria-label="Investor access">
+  <span class="ib-live"><span class="ib-dot" aria-hidden="true"></span><span data-ar="جولة المستثمرين الاستراتيجيين مفتوحة الآن">Strategic investor round now open</span></span>
+  <span class="ib-sep ib-hide-md" aria-hidden="true">|</span>
+  <button type="button" class="ib-link ib-hide-md js-lead" data-ar="اترك بياناتك">Leave your details</button>
+  <button type="button" class="ib-chip js-calendly"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg><span data-ar="احجز مكالمة">Book a call</span></button>
+  <a class="ib-link ib-hide-sm js-platform" href="https://app.sakinair.com" target="_blank" rel="noopener" data-ar="استكشف المنصّة">Explore Platform</a>
+</div>
+
+<button class="music-toggle" id="musicToggle" aria-label="Play background music" title="Play ambient music">
+  <div class="music-bars"><span></span><span></span><span></span></div>
+</button>
+<audio id="bgMusic" loop="" preload="none" data-src="assets/ambient.mp3"></audio>
+
+<nav id="mainNav" class="scrolled">
+  <a href="#top" class="nav-logo" data-ar="سكينة<span> ✦</span>">Sakina<span> ✦</span></a>
+  <ul class="nav-links">
+    <li><a href="#opportunity" data-ar="الفرصة">Opportunity</a></li>
+    <li><a href="#operations" data-ar="النموذج">Model</a></li>
+    <li><a href="#economics" data-ar="الجدوى الاقتصادية">Economics</a></li>
+    <li><a href="#vision2030" data-ar="رؤية 2030">Vision 2030</a></li>
+    <li><a href="#founder" data-ar="المؤسِّسة">Founder</a></li><li><a href="#governance" data-ar="الشراكة">Partnership</a></li>
+  </ul>
+  <div class="nav-right">
+    <button type="button" class="lang-toggle" id="langToggle" aria-label="Switch language / تغيير اللغة">عربي</button>
+    <a href="#invest" class="nav-cta" data-ar="استثمر معنا">Invest</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <div class="geo-pattern"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-horizon"></div>
+  <div class="hero-eyebrow" data-ar="مبادرة سعودية للطيران الفاخر">A Premium Saudi Aviation Initiative</div>
+  <h1 class="hero-title" data-ar="<em>سكينة</em>"><em>Sakina</em></h1>
+  <div class="hero-divider"></div>
+  <p class="hero-tagline" data-ar="شركة طيران فاخرة ومنصّة لتنشيط السياحة<br>مصمَّمة لتسريع رؤية 2030">Premium Airline &amp; Tourism Activation Platform<br>Designed to Accelerate Vision 2030</p>
+  <div class="hero-badges">
+    <div class="hero-badge"><span class="hero-badge-num" data-count="150" data-prefix="" data-suffix="K+">150K+</span><span class="hero-badge-label" data-ar="زائر سنويًا">Visitors Annually</span></div>
+    <div class="hero-badge"><span class="hero-badge-num" data-count="900" data-prefix="$" data-suffix="M">$900M</span><span class="hero-badge-label" data-ar="ضخّ سياحي">Tourism Injection</span></div>
+    <div class="hero-badge"><span class="hero-badge-num">3</span><span class="hero-badge-label" data-ar="طائرات استراتيجية">Strategic Aircraft</span></div>
+    <div class="hero-badge"><span class="hero-badge-num">2030</span><span class="hero-badge-label" data-ar="توافق كامل">Fully Aligned</span></div>
+  </div>
+
+  <div class="hero-ctas">
+    <a class="btn-live btn-gold js-platform" href="https://app.sakinair.com" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4M10 7l5 3-5 3z"/></svg><span data-ar="استكشف المنصّة">Explore Platform</span></a>
+    <button type="button" class="btn-live btn-emerald js-calendly"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg><span data-ar="احجز مكالمة مع المؤسِّسة">Book a call with the founder</span></button>
+    <button type="button" class="btn-live btn-outline js-lead"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 6l-10 7L2 6"/></svg><span data-ar="اطلب ملف المستثمر">Get the investor brief</span></button>
+  </div>
+  <div class="hero-note" data-ar="للجهات السيادية والمؤسسية والمستثمرين المؤهلين">For sovereign, institutional and qualified investors</div>
+  <a href="#opportunity" class="hero-scroll">
+    <span data-ar="اكتشف">Discover</span>
+    <div class="scroll-line"></div>
+  </a>
+</section>
+
+<div class="gold-divider"></div>
+
+<!-- PURPOSE BANNER -->
+<section style="background:linear-gradient(135deg,var(--green-deep) 0%,#002A18 100%);padding:0;">
+  <div class="section-inner" style="padding:3.5rem 4rem;">
+    <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:2rem;">
+      <div class="reveal visible">
+        <div class="section-eyebrow" data-ar="مهمّتنا">Our Mission</div>
+        <h2 class="section-title" style="font-size:clamp(1.5rem,3vw,2.5rem);margin-bottom:0;" data-ar="زيادة السياحة عالية القيمة.<br>تنشيط الوجهات الاستراتيجية.<br><em>الاحتفاظ برأس المال الوطني.</em>">
+          Increase High-Value Tourism.<br>Activate Strategic Destinations.<br><em>Retain National Capital.</em>
+        </h2>
+      </div>
+      <div class="reveal reveal-delay-2 visible" style="display:flex;flex-direction:column;gap:1rem;max-width:340px;">
+        <div style="display:flex;align-items:center;gap:1rem;padding:.8rem 0;border-bottom:1px solid rgba(201,168,76,.15);">
+          <span style="color:var(--gold);font-size:.55rem;letter-spacing:.2em;text-transform:uppercase;" data-ar="✦ الطيران بوصفه بنية تحتية">✦ Aviation as Infrastructure</span>
+        </div>
+        <div style="display:flex;align-items:center;gap:1rem;padding:.8rem 0;border-bottom:1px solid rgba(201,168,76,.15);">
+          <span style="color:var(--gold);font-size:.55rem;letter-spacing:.2em;text-transform:uppercase;" data-ar="✦ احتفاظ رقمي برأس المال">✦ Digital Capital Retention</span>
+        </div>
+        <div style="display:flex;align-items:center;gap:1rem;padding:.8rem 0;">
+          <span style="color:var(--gold);font-size:.55rem;letter-spacing:.2em;text-transform:uppercase;" data-ar="✦ التوافق مع رؤية 2030">✦ Vision 2030 Alignment</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="gold-divider"></div>
+
+<!-- OPPORTUNITY -->
+<section class="section-opportunity" id="opportunity">
+  <div class="geo-pattern" style="opacity:.04;"></div>
+  <div class="section-inner">
+    <div class="reveal visible">
+      <div class="section-eyebrow" data-ar="الفرصة">The Opportunity</div>
+      <h2 class="section-title" data-ar="لماذا الآن؟<br><em>التحوّل قد بدأ.</em>">Why Now?<br><em>The Shift Is Here.</em></h2>
+      <p class="section-body" data-ar="يشهد الطلب العالمي على السفر تحوّلًا بنيويًا. وتتمتّع المملكة العربية السعودية بموقع جغرافي وثقافي يؤهّلها لاقتناص هذه اللحظة الاستثنائية في قطاع السفر الفاخر.">Global travel demand is undergoing a structural transformation. Saudi Arabia is geographically and culturally positioned to capture this unprecedented premium moment.</p>
+    </div>
+    <div class="opportunity-grid">
+      <div class="opp-cards">
+        <div class="opp-card reveal reveal-delay-1 visible">
+          <span class="opp-icon">✈️</span>
+          <div><div class="opp-card-title" data-ar="الرحلات القصيرة الفاخرة">Premium Short Escapes</div><div class="opp-card-body" data-ar="يختار المسافرون الأثرياء حول العالم رحلات فاخرة من 3 إلى 5 أيام بدلًا من العطلات الطويلة التقليدية، مفضّلين الجودة على طول المدّة.">Global affluent travellers increasingly choose 3–5 day premium escapes over traditional long-haul holidays, prioritising quality over duration.</div></div>
+        </div>
+        <div class="opp-card reveal reveal-delay-2 visible">
+          <span class="opp-icon">🌍</span>
+          <div><div class="opp-card-title" data-ar="وجهات دافئة في المتناول">Warm Destinations Within Reach</div><div class="opp-card-body" data-ar="يبحث المسافرون من أوروبا وآسيا عن وجهات دافئة ضمن 4 إلى 5 ساعات طيران — وهو نطاق تحتلّ فيه المملكة موقعًا تنافسيًا استثنائيًا.">European and Asian travellers seek warm destinations within 4–5 flight hours — a radius where Saudi Arabia holds an extraordinary competitive position.</div></div>
+        </div>
+        <div class="opp-card reveal reveal-delay-3 visible">
+          <span class="opp-icon">👨‍👩‍👧‍👦</span>
+          <div><div class="opp-card-title" data-ar="قطاع الفخامة الحلال">Halal Luxury Segment</div><div class="opp-card-body" data-ar="تُعدّ الفخامة العائلية الخالية من الكحول من أسرع القطاعات نموًّا في السفر العالمي، والمملكة مهيّأة على نحو فريد لريادة هذا السوق.">Family-oriented, alcohol-free luxury is among the fastest-growing segments in global travel. Saudi Arabia is uniquely built to lead this market.</div></div>
+        </div>
+      </div>
+      <div class="geo-visual reveal reveal-delay-2 visible">
+        <div class="geo-circle-outer">
+          <div class="geo-dot"></div><div class="geo-dot"></div><div class="geo-dot"></div><div class="geo-dot"></div>
+          <div class="geo-circle-mid">
+            <div class="geo-circle-inner">
+              <div class="geo-center-text">
+                <p>4–5h</p>
+                <span data-ar="نطاق الطيران">Flight Radius</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="gold-divider"></div>
+
+<!-- MARKET GAP -->
+<section class="section-gap">
+  <div class="section-inner">
+    <div class="reveal">
+      <div class="section-eyebrow" data-ar="فجوة السوق">Market Gap</div>
+      <h2 class="section-title" data-ar="العوائق<br><em>التي نعالجها.</em>">The Barriers<br><em>We Are Solving.</em></h2>
+      <p class="section-body" data-ar="أربعة عوائق بنيوية تحدّ من تسريع القطاع السياحي في المملكة. وتعالج سكينة كلًّا منها بشكل منهجي وعلى نطاق واسع.">Four structural barriers limit Saudi Arabia's tourism acceleration. Sakina addresses each one systematically and at scale.</p>
+    </div>
+    <div class="gap-grid">
+      <div class="gap-item reveal reveal-delay-1">
+        <div class="gap-number">01</div>
+        <div class="gap-title" data-ar="فجوة الإدراك">Perception Gap</div>
+        <div class="gap-body" data-ar="يفتقر المسافرون الدوليون إلى مدخل فاخر ومنسَّق إلى المملكة. وتعالج هوية سكينة هذه الفجوة في الصورة الذهنية بشكل مباشر.">International travellers lack a curated, premium-positioned entry point into the Kingdom. Sakina's brand directly addresses this narrative gap.</div>
+      </div>
+      <div class="gap-item reveal reveal-delay-2">
+        <div class="gap-number">02</div>
+        <div class="gap-title" data-ar="بنية الخطوط">Route Architecture</div>
+        <div class="gap-body" data-ar="لا تزال خطوط الطيران الفاخرة قصيرة المدّة من أوروبا إلى الوجهات السعودية غير مكتملة التطوير، ما يترك طلبًا وافدًا كبيرًا دون تلبية.">Curated short-stay premium flight routes from Europe to Saudi destinations remain underdeveloped, leaving significant inbound demand unmet.</div>
+      </div>
+      <div class="gap-item reveal reveal-delay-3 visible">
+        <div class="gap-number">03</div>
+        <div class="gap-title" data-ar="تكامل الطيران مع الوجهة">Aviation-Destination Integration</div>
+        <div class="gap-body" data-ar="المشغّلون الحاليون ينقلون الركّاب. أمّا سكينة فتبني رحلة وافدة متكاملة من طرفها إلى طرفها، تربط الطيران مباشرةً بتجربة الوجهة.">Current operators transport passengers. Sakina structures end-to-end inbound journeys, bridging aviation directly with destination experience.</div>
+      </div>
+      <div class="gap-item reveal reveal-delay-4 visible">
+        <div class="gap-number">04</div>
+        <div class="gap-title" data-ar="تسرّب رأس المال">Capital Leakage</div>
+        <div class="gap-body" data-ar="يتدفّق الإنفاق السياحي خارج المنظومة السعودية. ويعيد نظام الاحتفاظ الرقمي في سكينة توجيه رأس المال بنيويًا إلى داخل المملكة.">Tourism spending flows outside the Saudi ecosystem. Sakina's digital retention system structurally redirects capital back into the Kingdom.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="gold-divider"></div>
+
+<!-- WHAT IS SAKINA -->
+<section class="section-what">
+  <div class="geo-pattern" style="opacity:.05;"></div>
+  <div class="section-inner">
+    <div class="reveal visible">
+      <div class="section-eyebrow" style="justify-content:center;gap:1rem;">
+        <span style="width:30px;height:1px;background:var(--gold);display:inline-block;"></span><span data-ar="ما هي سكينة">What Is Sakina</span><span style="width:30px;height:1px;background:var(--gold);display:inline-block;"></span>
+      </div>
+      <h2 class="section-title" style="text-align:center;max-width:700px;margin:0 auto 1rem;" data-ar="ليست مجرّد شركة طيران.<br><em>بل أداة اقتصادية وطنية.</em>">Not Just an Airline.<br><em>A National Economic Instrument.</em></h2>
+      <p class="section-body" style="text-align:center;margin:0 auto;" data-ar="شركة طيران فاخرة مقرّها المملكة، مع منظومة سياحية وطنية متكاملة — تجمع بين عمليات الطيران وتنشيط الوجهات والاحتفاظ برأس المال في منصّة واحدة.">A Saudi-based premium airline with an integrated national tourism ecosystem — combining aviation operations, destination activation, and capital retention in one platform.</p>
+    </div>
+    <div class="what-pillars reveal reveal-delay-2 visible">
+      <div class="pillar">
+        <span class="pillar-icon">✈️</span>
+        <div class="pillar-title" data-ar="نُشغّل الطائرات">We Operate Aircraft</div>
+        <div class="pillar-body" data-ar="طائرات عريضة البدن تعمل على خطوط فاخرة من أوروبا إلى الرياض والبحر الأحمر والعُلا، وتنقل زوّارًا دوليين عالي القيمة مباشرةً.">Wide-body aircraft flying premium routes from Europe to Riyadh, the Red Sea, and AlUla — delivering high-value international visitors directly.</div>
+      </div>
+      <div class="pillar">
+        <span class="pillar-icon">🏛️</span>
+        <div class="pillar-title" data-ar="نُنشّط الوجهات">We Activate Destinations</div>
+        <div class="pillar-body" data-ar="تصميم استراتيجي للخطوط مقترنًا ببرامج منسَّقة في الوجهات — متاحف ومواقع ثقافية وضيافة فاخرة وتجارب غامرة.">Strategic route design paired with curated destination programming — museums, cultural sites, luxury hospitality, and immersive experiences.</div>
+      </div>
+      <div class="pillar">
+        <span class="pillar-icon">💎</span>
+        <div class="pillar-title" data-ar="نُهيكل رأس المال">We Structure Capital</div>
+        <div class="pillar-body" data-ar="يمنح تطبيق سكينة أرصدة سفر سعودية مع كل تذكرة، لا يمكن استخدامها إلّا داخل المملكة، ما يُرسّخ الاحتفاظ الاقتصادي على نطاق واسع.">The Sakina App generates Saudi travel credits on every ticket — redeemable only inside the Kingdom, structuring economic retention at scale.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="gold-divider"></div>
+
+<!-- OPERATIONS -->
+<section class="section-ops" id="operations">
+  <div class="section-inner">
+    <div class="reveal visible">
+      <div class="section-eyebrow" data-ar="النموذج التشغيلي">Operational Model</div>
+      <h2 class="section-title" data-ar="بنية نموّ<br><em>على مراحل.</em>">A Phased<br><em>Growth Architecture.</em></h2>
+      <p class="section-body" data-ar="نموّ منضبط وكفؤ في استخدام رأس المال — ينطلق بشبكة خطوط فاخرة مركّزة، ثم يتوسّع إلى تموضع عالمي عبر أسواق المصدر الرئيسية.">Disciplined, capital-efficient growth — launching with a focused premium route network, then scaling to global positioning across key source markets.</p>
+    </div>
+    <div class="ops-phases">
+      <div class="phase-card reveal reveal-delay-1 visible">
+        <div class="phase-label" data-ar="المرحلة الأولى">Phase One</div>
+        <div class="phase-title" data-ar="التأسيس والانطلاق">Foundation &amp; Launch</div>
+        <ul class="phase-list">
+          <li data-ar="من 2 إلى 3 طائرات عريضة البدن في الأسطول الأوّلي">2–3 wide-body aircraft in initial fleet</li>
+          <li data-ar="خطوط من أوروبا إلى الرياض وساحل البحر الأحمر والعُلا">Europe → Riyadh, Red Sea Coast &amp; AlUla routes</li>
+          <li data-ar="رحلات فاخرة مجدولة إضافةً إلى رحلات عارضة مختارة">Scheduled premium flights + selective charter</li>
+          <li data-ar="تفعيل خطوط موسمية ومرتبطة بالفعاليات">Event-specific &amp; seasonal route activation</li>
+          <li data-ar="إطلاق تطبيق سكينة مع منظومة الأرصدة">Sakina App launch with credit ecosystem</li>
+        </ul>
+      </div>
+      <div class="phase-card reveal reveal-delay-2 visible">
+        <div class="phase-label" data-ar="المرحلة الثانية">Phase Two</div>
+        <div class="phase-title" data-ar="التوسّع والتموضع العالمي">Expansion &amp; Global Positioning</div>
+        <ul class="phase-list">
+          <li data-ar="شبكة خطوط موسّعة عبر أسواق المصدر الرئيسية">Expanded route network across key source markets</li>
+          <li data-ar="تموضع عالمي لعلامة فاخرة">Premium global brand positioning</li>
+          <li data-ar="شراكة أعمق مع قطاع الضيافة السعودي">Deeper partnership with KSA hospitality sector</li>
+          <li data-ar="تفعيل كامل لمنظومة الأرصدة الوطنية">Full national credit ecosystem activation</li>
+          <li data-ar="تقارير بيانات قائمة على الأداء لأصحاب المصلحة">Performance-based data reporting to stakeholders</li>
+        </ul>
+      </div>
+    </div>
+    <div style="margin-top:3rem;padding:2rem;background:rgba(0,74,47,.1);border:1px solid rgba(201,168,76,.15);display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1.5rem;" class="reveal reveal-delay-3 visible">
+      <div>
+        <div class="section-eyebrow" style="margin-bottom:.4rem;" data-ar="الخطوط الرئيسية">Key Routes</div>
+        <div style="font-family:&#39;Cormorant Garamond&#39;,serif;font-size:1.3rem;color:var(--cream);" data-ar="لندن · باريس · فرانكفورت · روما ← <em style='color:var(--gold);'>الرياض · نيوم · العُلا</em>">London · Paris · Frankfurt · Rome → <em style="color:var(--gold);">Riyadh · NEOM · AlUla</em></div>
+      </div>
+      <div style="display:flex;gap:2rem;flex-wrap:wrap;">
+        <div style="text-align:center;"><div class="num" style="font-family:&#39;Cormorant Garamond&#39;,serif;font-size:2rem;font-weight:600;color:var(--gold);">200+</div><div style="font-size:.55rem;letter-spacing:.2em;text-transform:uppercase;color:rgba(250,247,240,.45);" data-ar="رحلة سنويًا">Flights/Year</div></div>
+        <div style="text-align:center;"><div class="num" style="font-family:&#39;Cormorant Garamond&#39;,serif;font-size:2rem;font-weight:600;color:var(--gold);">250</div><div style="font-size:.55rem;letter-spacing:.2em;text-transform:uppercase;color:rgba(250,247,240,.45);" data-ar="راكبًا لكل رحلة">Passengers/Flight</div></div>
+        <div style="text-align:center;"><div class="num" style="font-family:&#39;Cormorant Garamond&#39;,serif;font-size:2rem;font-weight:600;color:var(--gold);">4–5h</div><div style="font-size:.55rem;letter-spacing:.2em;text-transform:uppercase;color:rgba(250,247,240,.45);" data-ar="متوسّط زمن الرحلة">Avg. Flight Time</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="gold-divider"></div>
+
+<!-- SAKINA APP -->
+<section class="section-app">
+  <div class="geo-pattern" style="opacity:.04;"></div>
+  <div class="section-inner">
+    <div class="reveal visible">
+      <div class="section-eyebrow" data-ar="تطبيق سكينة">Sakina App</div>
+      <h2 class="section-title" data-ar="محرّك الاحتفاظ<br><em>برأس المال.</em>">The Capital<br><em>Retention Engine.</em></h2>
+      <p class="section-body" data-ar="كل تذكرة تُحجز عبر سكينة تولّد أرصدة سفر سعودية — آلية مُهيكلة تضمن عودة الإنفاق السياحي إلى اقتصاد المملكة.">Every ticket booked with Sakina generates Saudi travel credits — a structured mechanism ensuring tourism spending flows back into the Kingdom's economy.</p>
+    </div>
+    <div class="app-grid">
+      <div class="app-phone-mockup reveal reveal-delay-1 visible">
+        <div class="phone-screen">
+          <div class="phone-logo" data-ar="سكينة ✦">SAKINA ✦</div>
+          <div class="phone-credit-card">
+            <div class="credit-label" data-ar="أرصدة السفر السعودية">Saudi Travel Credits</div>
+            <div class="credit-amount" data-ar="4,200 ر.س">SAR 4,200</div>
+            <div class="credit-sub" data-ar="قابلة للاستخدام داخل المملكة العربية السعودية">REDEEMABLE INSIDE KINGDOM OF SAUDI ARABIA</div>
+          </div>
+          <div class="phone-categories">
+            <div class="phone-cat"><span class="phone-cat-icon">🏨</span><span class="phone-cat-label" data-ar="فنادق">Hotels</span></div>
+            <div class="phone-cat"><span class="phone-cat-icon">🏛️</span><span class="phone-cat-label" data-ar="متاحف">Museums</span></div>
+            <div class="phone-cat"><span class="phone-cat-icon">🍽️</span><span class="phone-cat-label" data-ar="مطاعم">Dining</span></div>
+            <div class="phone-cat"><span class="phone-cat-icon">🎭</span><span class="phone-cat-label" data-ar="ثقافة">Culture</span></div>
+          </div>
+          <div style="font-size:.4rem;letter-spacing:.1em;color:rgba(250,247,240,.3);text-transform:uppercase;text-align:center;" data-ar="تجارب متاحة بالقرب منك">Active Experiences Near You</div>
+          <div style="background:rgba(201,168,76,.08);border:1px solid rgba(201,168,76,.15);border-radius:6px;padding:.5rem;font-size:.4rem;color:rgba(250,247,240,.5);line-height:1.8;" data-ar="✦ مسار العُلا التراثي — 380 ر.س<br>✦ تجربة الغوص في البحر الأحمر — 250 ر.س<br>✦ جولة الدرعية الثقافية — 180 ر.س">✦ AlUla Heritage Trail — SAR 380<br>✦ Red Sea Dive Experience — SAR 250<br>✦ Diriyah Cultural Tour — SAR 180</div>
+          <div class="phone-cta" data-ar="استخدم الأرصدة ←">Redeem Credits →</div>
+        </div>
+      </div>
+      <div class="reveal reveal-delay-2 visible">
+        <div class="gold-line"></div>
+        <p style="font-size:.85rem;font-weight:300;line-height:2;color:rgba(250,247,240,.6);margin-bottom:1.5rem;" data-ar="الأرصدة قابلة للاستخدام حصريًا داخل المملكة — في الفنادق الفاخرة والمواقع الثقافية وشركاء الضيافة والتجارب المحلية المنسَّقة. هذا ليس برنامج ولاء، بل احتفاظ بنيوي.">Credits are exclusively redeemable within the Kingdom — at premium hotels, cultural venues, hospitality partners, and curated domestic experiences. This isn't loyalty. It's structural retention.</p>
+        <div class="revenue-streams">
+          <div class="revenue-item"><div class="revenue-num">01</div><div class="revenue-text"><strong data-ar="هامش الطيران">Airline Margin</strong><p data-ar="إيرادات مباشرة من تسعير المقاعد الفاخرة على خطوط أوروبية منسَّقة إلى الوجهات السعودية الاستراتيجية.">Direct revenue from premium seat pricing on curated European routes into Saudi Arabia's strategic destinations.</p></div></div>
+          <div class="revenue-item"><div class="revenue-num">02</div><div class="revenue-text"><strong data-ar="حوافز تنشيط السياحة">Tourism Activation Incentives</strong><p data-ar="حوافز مُهيكلة مقابل تحقيق تفعيل قابل للقياس للزوّار في أبرز الوجهات السياحية والمواقع الثقافية الوطنية.">Structured incentives for driving measurable visitor activation at key national tourism destinations and cultural sites.</p></div></div>
+          <div class="revenue-item"><div class="revenue-num">03</div><div class="revenue-text"><strong data-ar="نموذج الشراكة الوطنية">National Partnership Model</strong><p data-ar="مشاركة إيرادات قائمة على الأداء مع شركاء الضيافة والتجزئة والثقافة المشاركين في منظومة الأرصدة.">Performance-based revenue sharing with hospitality, retail, and cultural partners participating in the credit ecosystem.</p></div></div>
+        </div>
+
+        <div class="app-actions">
+          <a class="btn-live btn-gold js-platform" href="https://app.sakinair.com" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4M10 7l5 3-5 3z"/></svg><span data-ar="جرّب المنصّة مباشرة">Try the live platform</span></a>
+          <button type="button" class="btn-live btn-outline js-calendly"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg><span data-ar="احجز عرضًا توضيحيًا">Book a guided demo</span></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="gold-divider"></div>
+
+<!-- ECONOMICS -->
+<section class="section-econ" id="economics">
+  <div class="section-inner">
+    <div class="reveal visible">
+      <div class="section-eyebrow" data-ar="المضاعِف الاقتصادي والأثر المالي">Economic Multiplier &amp; Fiscal Impact</div>
+      <h2 class="section-title" data-ar="الأرقام<br><em>تتحدّث بوضوح.</em>">The Numbers<br><em>Speak Clearly.</em></h2>
+      <p class="section-body" data-ar="رحلة فاخرة واحدة تحمل وزنًا اقتصاديًا استثنائيًا، وثلاث طائرات بكامل طاقتها التشغيلية تحقّق مساهمة تحويلية وقابلة للقياس في الناتج المحلي والإيرادات المالية للمملكة.">A single premium rotation carries extraordinary economic weight. Three aircraft at scale deliver a transformative, measurable contribution to Saudi GDP and fiscal revenues.</p>
+    </div>
+    <div class="econ-row">
+      <div class="stat-block reveal reveal-delay-1 visible">
+        <div class="stat-figure">$900M</div>
+        <div class="stat-label" data-ar="ذروة الضخّ السياحي السنوي">Peak Annual Tourism Injection</div>
+        <div class="stat-desc" data-ar="3 طائرات × 200 رحلة سنويًا بالطاقة الكاملة = أكثر من 150,000 زائر من الفئة الفاخرة سنويًا. وبمتوسّط إنفاق يتراوح بين 4,000 و6,000 دولار للزائر، تولّد كل رحلة نشاطًا اقتصاديًا مباشرًا بقيمة 1 إلى 1.5 مليون دولار.">3 aircraft × 200 flights/year at full capacity = 150,000+ premium visitors annually. Average spend of $4,000–$6,000 per visitor generates $1–1.5M per rotation in direct economic activity.</div>
+        <div style="margin-top:1.5rem;padding-top:1.5rem;border-top:1px solid rgba(201,168,76,.12);">
+          <div style="display:flex;justify-content:space-between;margin-bottom:.6rem;"><span style="font-size:.7rem;color:rgba(250,247,240,.5);" data-ar="لكل رحلة (250 راكبًا × 5 آلاف دولار وسطيًا)">Per rotation (250 pax × $5K avg)</span><span class="num" style="font-family:&#39;Cormorant Garamond&#39;,serif;font-size:1rem;color:var(--gold);">$1.25M</span></div>
+          <div style="display:flex;justify-content:space-between;margin-bottom:.6rem;"><span style="font-size:.7rem;color:rgba(250,247,240,.5);" data-ar="الرحلات السنوية (3 طائرات)">Annual rotations (3 aircraft)</span><span class="num" style="font-family:&#39;Cormorant Garamond&#39;,serif;font-size:1rem;color:var(--gold);">600+</span></div>
+          <div style="display:flex;justify-content:space-between;"><span style="font-size:.7rem;color:rgba(250,247,240,.5);" data-ar="عدد الزوّار المتولّد سنويًا">Annual visitors generated</span><span class="num" style="font-family:&#39;Cormorant Garamond&#39;,serif;font-size:1rem;color:var(--gold);">150,000+</span></div>
+        </div>
+      </div>
+      <div class="reveal reveal-delay-2 visible">
+        <div class="calc-breakdown">
+          <div style="padding:0 0 1rem 0;border-bottom:1px solid rgba(201,168,76,.1);"><div style="font-size:.6rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:.8rem;" data-ar="نموذج الأثر المالي">Fiscal Impact Model</div></div>
+          <div class="calc-row"><span class="calc-row-label" data-ar="متوسّط التدفّق السنوي">Average annual inflow</span><span class="calc-row-value">$750M</span></div>
+          <div class="calc-row"><span class="calc-row-label" data-ar="ضريبة القيمة المضافة <span class=&#39;num&#39;>15%</span>">VAT at 15%</span><span class="calc-row-value">≈$112M</span></div>
+          <div class="calc-row"><span class="calc-row-label" data-ar="إيرادات ضريبة الشركات">Corporate tax revenues</span><span class="calc-row-value">$1.17M</span></div>
+          <div class="calc-row"><span class="calc-row-label" data-ar="ضريبة الرواتب + الضيافة">Payroll tax + hospitality</span><span class="calc-row-value">$3.2M</span></div>
+          <div class="calc-total">
+            <div class="calc-total-figure">$150–200M</div>
+            <div class="calc-total-label" data-ar="إجمالي الأثر المالي السنوي">Total Annual Fiscal Effect</div>
+          </div>
+          <div style="margin-top:1rem;padding:1rem;background:rgba(201,168,76,.04);border:1px solid rgba(201,168,76,.1);">
+            <div style="font-size:.7rem;font-weight:300;line-height:1.8;color:rgba(250,247,240,.5);" data-ar="جميع العمليات والوعاء الضريبي داخل المملكة بالكامل. احتفاظ مالي بنسبة <span class=&#39;num&#39;>100%</span> داخل المملكة.">All operations and tax base fully domiciled within Saudi Arabia. 100% fiscal retention in-Kingdom.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="gold-divider"></div>
+
+<!-- DIFFERENTIATION -->
+<section class="section-diff">
+  <div class="geo-pattern" style="opacity:.06;"></div>
+  <div class="section-inner">
+    <div class="reveal visible">
+      <div class="section-eyebrow" style="justify-content:center;gap:1rem;"><span style="width:30px;height:1px;background:var(--gold);display:inline-block;"></span><span data-ar="ما يميّزنا">Our Differentiation</span><span style="width:30px;height:1px;background:var(--gold);display:inline-block;"></span></div>
+    </div>
+    <div class="diff-statement reveal reveal-delay-1 visible" data-ar="سكينة لا تنقل الركّاب فحسب،<br><em>بل تُهيكل رأس المال الوافد.</em>">
+      Sakina is not only<br>transporting passengers.<br><em>We are structuring inbound capital.</em>
+    </div>
+    <div class="gold-line" style="margin:2.5rem auto;"></div>
+    <p class="section-body reveal reveal-delay-2 visible" style="text-align:center;margin:0 auto;" data-ar="الطيران بوصفه أداة للتنمية الاقتصادية — أوّل منصّة من نوعها تدمج عمليات طيران فاخرة مع نظام سيادي للاحتفاظ برأس المال.">Aviation as an economic development instrument — the first platform of its kind to merge premium airline operations with a sovereign capital retention system.</p>
+    <div class="diff-strip reveal reveal-delay-3 visible">
+      <div class="diff-strip-item"><span class="diff-strip-icon">🛫</span><div class="diff-strip-label" data-ar="طيران فاخر">Premium Aviation</div></div>
+      <div class="diff-strip-item"><span class="diff-strip-icon">📱</span><div class="diff-strip-label" data-ar="منظومة رقمية">Digital Ecosystem</div></div>
+      <div class="diff-strip-item"><span class="diff-strip-icon">🏦</span><div class="diff-strip-label" data-ar="احتفاظ برأس المال">Capital Retention</div></div>
+      <div class="diff-strip-item"><span class="diff-strip-icon">🗺️</span><div class="diff-strip-label" data-ar="تنشيط الوجهات">Destination Activation</div></div>
+      <div class="diff-strip-item"><span class="diff-strip-icon">📊</span><div class="diff-strip-label" data-ar="شفافية البيانات">Data Transparency</div></div>
+    </div>
+  </div>
+</section>
+
+<div class="gold-divider"></div>
+
+<!-- VISION 2030 -->
+<section class="section-vision" id="vision2030">
+  <div class="section-inner">
+    <div class="reveal visible">
+      <div class="section-eyebrow" data-ar="التوافق الاستراتيجي">Strategic Alignment</div>
+      <h2 class="section-title" data-ar="مصمَّمة من أجل<br><em>رؤية 2030.</em>">Built for<br><em>Vision 2030.</em></h2>
+      <p class="section-body" data-ar="وُلدت سكينة بوصفها أداة مباشرة لرؤية 2030 — إذ يرتبط كل ركن تشغيلي فيها بدقّة بأجندة التحوّل الوطني في المملكة.">Sakina was conceived as a direct instrument of Vision 2030 — each operational pillar mapped precisely to the Kingdom's national transformation agenda.</p>
+    </div>
+    <div class="vision-grid">
+      <div class="vision-card reveal reveal-delay-1 visible"><span class="vision-card-icon">📈</span><div class="vision-card-title" data-ar="نموّ مساهمة السياحة في الناتج المحلي">Tourism GDP Growth</div><div class="vision-card-body" data-ar="تسهم مباشرةً في هدف رؤية 2030 برفع مساهمة السياحة في الناتج المحلي من <span class=&#39;num&#39;>3%</span> إلى <span class=&#39;num&#39;>10%</span> عبر تدفّق زوّار عالي القيمة وقابل للقياس.">Directly contributes to the Vision 2030 target of raising tourism's GDP contribution from 3% to 10% through measurable, high-value visitor inflow.</div></div>
+      <div class="vision-card reveal reveal-delay-2 visible"><span class="vision-card-icon">🌴</span><div class="vision-card-title" data-ar="تنشيط الوجهات">Destination Activation</div><div class="vision-card-body" data-ar="تنشيط العُلا ونيوم وساحل البحر الأحمر والدرعية كوجهات دولية رائدة عبر وصول جوي فاخر وبرامج منسَّقة.">Activates AlUla, NEOM, the Red Sea Coast, and Diriyah as premier international destinations through premium flight access and curated programming.</div></div>
+      <div class="vision-card reveal reveal-delay-3 visible"><span class="vision-card-icon">🌐</span><div class="vision-card-title" data-ar="تعزيز الصورة الذهنية">Perception Strengthening</div><div class="vision-card-body" data-ar="علامة طيران سعودية ذات تموضع فاخر تعكس ثقة عالمية بالمملكة كوجهة عالمية المستوى للمسافرين المميّزين.">A premium-positioned Saudi airline brand projects global confidence in the Kingdom as a world-class destination for discerning travellers.</div></div>
+      <div class="vision-card reveal reveal-delay-1 visible"><span class="vision-card-icon">🕌</span><div class="vision-card-title" data-ar="التموضع في الفخامة الحلال">Halal Luxury Positioning</div><div class="vision-card-body" data-ar="تخدم قطاع الفخامة العائلية الخالية من الكحول المتنامي عالميًا — وهو سوق تملك فيه المملكة ميزة تنافسية حاسمة.">Serves the expanding global family-oriented, alcohol-free luxury segment — a market where Saudi Arabia holds a decisive competitive advantage.</div></div>
+      <div class="vision-card reveal reveal-delay-2 visible"><span class="vision-card-icon">💻</span><div class="vision-card-title" data-ar="الشفافية الرقمية">Digital Transparency</div><div class="vision-card-body" data-ar="يوفّر تطبيق سكينة بيانات آنية وقابلة للتحقّق عن الإنفاق السياحي — بما يدعم رسم السياسات والتخطيط المالي والمساءلة الوطنية.">The Sakina App creates verifiable, real-time data on tourism spending — enabling policy, fiscal planning, and national accountability.</div></div>
+      <div class="vision-card reveal reveal-delay-3 visible"><span class="vision-card-icon">💼</span><div class="vision-card-title" data-ar="التوظيف الوطني">National Employment</div><div class="vision-card-body" data-ar="تخلق عمليات الطيران والبنية الرقمية وشراكات الوجهات مسارًا مستدامًا لفرص عمل سعودية عالية الجودة.">Aviation operations, digital infrastructure, and destination partnerships create a pipeline of high-quality Saudi employment opportunities.</div></div>
+    </div>
+  </div>
+</section>
+
+<div class="gold-divider"></div>
+
+<!-- GOVERNANCE -->
+<section class="section-gov" id="governance">
+  <div class="geo-pattern" style="opacity:.05;"></div>
+  <div class="section-inner">
+    <div class="reveal visible">
+      <div class="section-eyebrow" data-ar="الحوكمة والشراكة">Governance &amp; Partnership</div>
+      <h2 class="section-title" data-ar="حوافز متوائمة.<br><em>نموّ قائم على الأداء.</em>">Aligned Incentives.<br><em>Performance-Based Growth.</em></h2>
+      <p class="section-body" data-ar="تعمل سكينة وفق نموذج استراتيجي بين القطاعين العام والخاص — يجمع كفاءة رأس المال الخاص مع الغاية الاستراتيجية الوطنية، ويستفيد الطرفان مباشرةً من الأداء.">Sakina operates on a Public–Private strategic model — combining private capital efficiency with national strategic purpose. Both sides benefit directly from performance.</p>
+    </div>
+    <div class="gov-grid reveal reveal-delay-2 visible">
+      <div class="gov-side">
+        <div class="gov-side-label" data-ar="سكينة تستثمر في">Sakina Invests In</div>
+        <ul class="gov-list">
+          <li data-ar="اقتناء وتشغيل الطائرات عريضة البدن">Wide-body aircraft acquisition &amp; operation</li>
+          <li data-ar="تسويق وتفعيل الخطوط الأوروبية الفاخرة">Premium European route marketing &amp; activation</li>
+          <li data-ar="تطوير تطبيق سكينة ومنظومة الأرصدة">Sakina App development &amp; credit ecosystem</li>
+          <li data-ar="التكامل مع قطاع الضيافة السعودي عبر الشراكات">Partnership integration with KSA hospitality sector</li>
+          <li data-ar="التموضع الدولي للعلامة والاتصال المؤسسي">International brand positioning &amp; communications</li>
+        </ul>
+      </div>
+      <div class="gov-side">
+        <div class="gov-side-label" data-ar="المملكة تستفيد من">The Kingdom Benefits From</div>
+        <ul class="gov-list">
+          <li data-ar="تدفّق رأسمالي عالي القيمة وقابل للقياس">Measurable high-value capital inflow</li>
+          <li data-ar="نموّ بنيوي للوعاء الضريبي (القيمة المضافة، الشركات، الرواتب)">Structural tax base growth (VAT, corporate, payroll)</li>
+          <li data-ar="بيانات آنية وشفافة عن الإنفاق السياحي">Real-time tourism spending data &amp; transparency</li>
+          <li data-ar="تسريع تفعيل منظومة الوجهات">Accelerated destination ecosystem activation</li>
+          <li data-ar="ارتباط المملكة بعلامة عالمية فاخرة">International premium brand association for KSA</li>
+        </ul>
+      </div>
+    </div>
+    <div style="margin-top:2rem;padding:2rem;background:rgba(201,168,76,.06);border:1px solid rgba(201,168,76,.2);text-align:center;" class="reveal reveal-delay-3 visible">
+      <div style="font-family:&#39;Cormorant Garamond&#39;,serif;font-size:1.4rem;color:var(--cream);font-style:italic;margin-bottom:.5rem;" data-ar="«نموّ قائم على الأداء مع شفافية مالية كاملة.»">"Performance-based growth with full fiscal transparency."</div>
+      <div style="font-size:.6rem;letter-spacing:.2em;text-transform:uppercase;color:rgba(201,168,76,.6);" data-ar="مبدأ الحوكمة في سكينة">Sakina Governance Principle</div>
+    </div>
+  </div>
+</section>
+
+<div class="gold-divider"></div>
+<div class="gold-divider"></div>
+
+<!-- FOUNDER -->
+<section style="background:linear-gradient(160deg,#001A10 0%,#002E1A 100%);" id="founder">
+  <div class="geo-pattern" style="opacity:.04;"></div>
+  <div class="section-inner">
+    <div class="reveal visible">
+      <div class="section-eyebrow" data-ar="المؤسِّسة والرئيسة التنفيذية">Founder &amp; CEO</div>
+      <h2 class="section-title" data-ar="صاحبة الرؤية<br><em>خلف سكينة.</em>">The Visionary<br><em>Behind Sakina.</em></h2>
+    </div>
+
+    <div class="founder-grid">
+
+      <div class="reveal reveal-delay-1 founder-photo-wrap visible">
+        <div style="position:relative;overflow:hidden;border:1px solid rgba(201,168,76,.3);background:rgba(0,74,47,.1);">
+          <img src="assets/founder.jpg" alt="Alisa Zahavalka — Founder &amp; CEO of Sakina" style="width:100%;display:block;object-fit:cover;filter:contrast(1.04) brightness(0.97);">
+          <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(0,20,10,.6) 0%,transparent 50%);pointer-events:none;"></div>
+          <div style="position:absolute;bottom:0;left:0;right:0;padding:1.5rem;">
+            <div style="font-family:&#39;Cormorant Garamond&#39;,serif;font-size:1.4rem;font-weight:600;color:var(--gold);letter-spacing:.05em;" data-ar="أليسا زاهافالكا">Alisa Zahavalka</div>
+            <div style="font-size:.55rem;letter-spacing:.22em;text-transform:uppercase;color:rgba(250,247,240,.6);margin-top:.2rem;" data-ar="المؤسِّسة والرئيسة التنفيذية">Founder &amp; Chief Executive Officer</div>
+          </div>
+        </div>
+        <div class="founder-corner-tl"></div>
+        <div class="founder-corner-br"></div>
+      </div>
+
+      <div class="reveal reveal-delay-2 visible">
+        <div class="gold-line"></div>
+        <p style="font-family:&#39;Cormorant Garamond&#39;,serif;font-size:1.6rem;font-weight:300;font-style:italic;color:var(--cream);line-height:1.5;margin-bottom:1.8rem;" data-ar="«آمنتُ دائمًا بأن الطيران يمكن أن يكون أكثر من مجرّد وسيلة نقل — أن يكون جسرًا بين الثقافات ومحرّكًا للأمم.»">"I always believed aviation could be more than transport — it could be a bridge between cultures and an engine for nations."</p>
+        <p style="font-size:.83rem;font-weight:300;line-height:2;color:rgba(250,247,240,.62);margin-bottom:1.2rem;" data-ar="وُلدت أليسا زاهافالكا في بيلاروسيا وبنت حياتها عبر أوروبا، وقضت سنوات طويلة في بولندا قبل أن تتّجه نحو رؤية أوسع بكثير. ومنذ صغرها استهواها الطيران — فكرة أن رحلة واحدة قادرة على وصل عوالم متباعدة وفتح اقتصادات وتغيير طريقة اختبار الناس للعالم.">Alisa Zahavalka was born in Belarus and built her life across Europe, spending many years in Poland before setting her sights on a far larger vision. From an early age, she was captivated by aviation — the idea that a single flight could connect distant worlds, open economies, and change how people experience the planet.</p>
+        <p style="font-size:.83rem;font-weight:300;line-height:2;color:rgba(250,247,240,.62);margin-bottom:2rem;" data-ar="تحوّل ذلك الشغف الممتدّ إلى سكينة. فبدلًا من تأسيس شركة سفر تقليدية، صمّمت أليسا أداة سياحية وطنية — تجلب زوّارًا دوليين من الفئة الفاخرة إلى المملكة وتحتفظ بإنفاقهم بنيويًا داخلها. سكينة هي إجابتها عن سؤال ظلّت تطرحه سنوات: كيف تبني طيرانًا يخدم أمّة بحقّ؟">That lifelong fascination became Sakina. Rather than simply founding a travel company, Alisa designed a national tourism instrument — one that brings premium international visitors into Saudi Arabia while structurally retaining their spending inside the Kingdom. Sakina is her answer to a question she spent years asking: how do you build aviation that truly serves a nation?</p>
+        <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:1rem;">
+          <div style="padding:1rem;border:1px solid rgba(201,168,76,.15);background:rgba(255,255,255,.02);text-align:center;">
+            <div style="font-size:.55rem;letter-spacing:.18em;text-transform:uppercase;color:rgba(250,247,240,.4);margin-bottom:.4rem;" data-ar="المنشأ">Origin</div>
+            <div style="font-family:&#39;Cormorant Garamond&#39;,serif;font-size:1rem;font-weight:600;color:var(--gold-light);" data-ar="بيلاروسيا">Belarus</div>
+          </div>
+          <div style="padding:1rem;border:1px solid rgba(201,168,76,.15);background:rgba(255,255,255,.02);text-align:center;">
+            <div style="font-size:.55rem;letter-spacing:.18em;text-transform:uppercase;color:rgba(250,247,240,.4);margin-bottom:.4rem;" data-ar="مقرّ الإقامة">Based In</div>
+            <div style="font-family:&#39;Cormorant Garamond&#39;,serif;font-size:1rem;font-weight:600;color:var(--gold-light);" data-ar="بولندا">Poland</div>
+          </div>
+          <div style="padding:1rem;border:1px solid rgba(201,168,76,.15);background:rgba(255,255,255,.02);text-align:center;">
+            <div style="font-size:.55rem;letter-spacing:.18em;text-transform:uppercase;color:rgba(250,247,240,.4);margin-bottom:.4rem;" data-ar="الشغف">Passion</div>
+            <div style="font-family:&#39;Cormorant Garamond&#39;,serif;font-size:1rem;font-weight:600;color:var(--gold-light);" data-ar="الطيران">Aviation</div>
+          </div>
+        </div>
+      </div>
+    </div><!-- end .founder-grid -->
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="section-final" id="contact">
+  <div class="geo-pattern" style="opacity:.06;"></div>
+  <div class="section-inner">
+    <div class="final-crown reveal visible">🌙</div>
+    <h2 class="final-title reveal reveal-delay-1 visible" data-ar="<span>سكينة</span>"><span>Sakina</span></h2>
+    <div class="final-subtitle reveal reveal-delay-2 visible" data-ar="مستقبل الطيران السعودي الفاخر">The Future of Saudi Premium Aviation</div>
+    <div class="gold-line" style="margin:0 auto 2rem;"></div>
+    <p class="final-body reveal reveal-delay-2 visible" data-ar="سكينة أكثر من شركة طيران. إنها أداة اقتصادية وطنية — بُنيت لتجلب العالم إلى المملكة العربية السعودية، وتُبقي القيمة داخلها، وتضع المملكة كالوجهة الفاخرة الأبرز في القرن الحادي والعشرين.">Sakina is more than an airline. It is a national economic instrument — built to bring the world to Saudi Arabia, keep its value inside the Kingdom, and position the nation as the defining premium destination of the 21st century.</p>
+    <div style="font-family:&#39;Cormorant Garamond&#39;,serif;font-size:1.3rem;color:rgba(250,247,240,.45);font-style:italic;margin-bottom:2rem;" class="reveal reveal-delay-3 visible" data-ar="نُشغّل الطائرات. نُنشّط الوجهات. نُهيكل رأس المال.">We operate aircraft. We activate destinations. We structure capital.</div>
+    <div class="final-cta-group reveal reveal-delay-3 visible">
+      <a href="assets/sakina-deck.pdf" download="Sakina-Investor-Brief.pdf" class="btn-primary" data-ar="اطلب ملف المستثمر">Request Investor Brief</a>
+      <a href="https://app.sakinair.com" target="_blank" rel="noopener" class="btn-ghost js-platform" data-ar="استكشف المنصّة">Explore the Platform</a>
+      <a href="#invest" class="btn-ghost" data-ar="احجز مكالمة">Book a call</a>
+    </div>
+    <div class="v2030-badge reveal reveal-delay-4 visible">
+      <span data-ar="مصمَّمة لتسريع">Designed to Accelerate</span>
+      <strong data-ar="رؤية 2030 🇸🇦">VISION 2030 🇸🇦</strong>
+      <span data-ar="المملكة العربية السعودية">Kingdom of Saudi Arabia</span>
+    </div>
+  </div>
+</section>
+
+<div class="gold-divider"></div>
+
+<!-- INVESTOR DESK -->
+<section class="section-invest" id="invest">
+  <div class="geo-pattern" style="opacity:.05;"></div>
+  <div class="section-inner">
+    <div class="reveal visible" style="max-width:760px;">
+      <div class="section-eyebrow" data-ar="مكتب المستثمرين">Investor Desk</div>
+      <h2 class="section-title" data-ar="تحدّث مباشرة<br><em>مع المؤسِّسة.</em>">Speak directly<br><em>with the founder.</em></h2>
+      <p style="font-size:.9rem;font-weight:300;line-height:1.9;color:rgba(250,247,240,.7);" data-ar="اترك بياناتك لتصلك حزمة المستثمر، أو اختر موعدًا مناسبًا لمكالمة خاصة من المواعيد المتاحة.">Leave your details to receive the investor pack, or pick a time that suits you for a private call from the available slots.</p>
+    </div>
+
+    <div class="invest-grid">
+      <aside class="founder-card reveal reveal-delay-1 visible">
+        <div class="fc-photo-wrap">
+          <img class="fc-photo js-founder-photo" src="assets/founder.jpg" alt="Alisa Zahavalka — Founder &amp; CEO of Sakina" width="170" height="170" loading="lazy">
+          <span class="fc-online" aria-hidden="true"></span>
+        </div>
+        <div class="fc-name" data-ar="أليسا زاهافالكا">Alisa Zahavalka</div>
+        <div class="fc-role" data-ar="المؤسِّسة والرئيسة التنفيذية">Founder &amp; CEO</div>
+        <p class="fc-quote" data-ar="«يسعدني أن أشارككم كيف ستخدم سكينة المملكة — ونرحّب بالشركاء الذين يشاركوننا الرؤية.»">“I would be glad to walk you through how Sakina will serve the Kingdom — and to meet partners who share the vision.”</p>
+        <ul class="fc-list">
+          <li data-ar="ملف المستثمر والنموذج المالي">Investor brief and financial model</li>
+          <li data-ar="وصول تجريبي إلى منصّة سكينة">Demo access to the Sakina platform</li>
+          <li data-ar="مكالمة خاصة مع المؤسِّسة — حضوريًا أو عن بُعد">Private call with the founder — in person or remote</li>
+        </ul>
+      </aside>
+
+      <div class="desk reveal reveal-delay-2 visible">
+        <div class="desk-tabs" role="tablist" aria-label="Contact options">
+          <button type="button" class="desk-tab" role="tab" id="tab-lead" aria-controls="panel-lead" aria-selected="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 6l-10 7L2 6"/></svg><span data-ar="اترك بياناتك">Leave details</span></button>
+          <button type="button" class="desk-tab" role="tab" id="tab-call" aria-controls="panel-call" aria-selected="false" tabindex="-1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg><span data-ar="احجز مكالمة">Book a call</span></button>
+        </div>
+
+        <div class="desk-panel" role="tabpanel" id="panel-lead" aria-labelledby="tab-lead">
+          <form id="leadForm" novalidate>
+            <div class="lf-grid">
+              <div class="lf-field"><label for="lf-name" data-ar="الاسم الكامل">Full name</label><input id="lf-name" name="name" type="text" autocomplete="name" required></div>
+              <div class="lf-field"><label for="lf-org" data-ar="الجهة">Organisation</label><input id="lf-org" name="organisation" type="text" autocomplete="organization" required></div>
+              <div class="lf-field"><label for="lf-email" data-ar="البريد الإلكتروني للعمل">Work email</label><input id="lf-email" name="email" type="email" autocomplete="email" dir="ltr" required></div>
+              <div class="lf-field"><label for="lf-phone" data-ar="الهاتف / واتساب (اختياري)">Phone / WhatsApp (optional)</label>
+                <div class="lf-phone-combo">
+                  <div class="phone-country-wrap">
+                    <input type="hidden" id="lf-phone-code" value="+966">
+                    <button type="button" class="phone-country-btn" id="lf-phone-country" aria-haspopup="listbox" aria-expanded="false" aria-label="Country calling code">
+                      <img class="phone-flag-img" id="lf-phone-flag" src="https://flagcdn.com/w40/sa.png" alt="Saudi Arabia">
+                      <span id="lf-phone-dial">+966</span>
+                      <span class="phone-caret">▼</span>
+                    </button>
+                    <div class="phone-country-menu" id="lf-phone-menu" role="listbox">
+                      <button type="button" class="phone-country-option" data-code="+966" data-country="sa" data-name="Saudi Arabia"><img class="phone-flag-img" src="https://flagcdn.com/w40/sa.png" alt="Saudi Arabia"><span>Saudi Arabia</span><span class="code">+966</span></button>
+                      <button type="button" class="phone-country-option" data-code="+971" data-country="ae" data-name="UAE"><img class="phone-flag-img" src="https://flagcdn.com/w40/ae.png" alt="UAE"><span>UAE</span><span class="code">+971</span></button>
+                      <button type="button" class="phone-country-option" data-code="+974" data-country="qa" data-name="Qatar"><img class="phone-flag-img" src="https://flagcdn.com/w40/qa.png" alt="Qatar"><span>Qatar</span><span class="code">+974</span></button>
+                      <button type="button" class="phone-country-option" data-code="+965" data-country="kw" data-name="Kuwait"><img class="phone-flag-img" src="https://flagcdn.com/w40/kw.png" alt="Kuwait"><span>Kuwait</span><span class="code">+965</span></button>
+                      <button type="button" class="phone-country-option" data-code="+973" data-country="bh" data-name="Bahrain"><img class="phone-flag-img" src="https://flagcdn.com/w40/bh.png" alt="Bahrain"><span>Bahrain</span><span class="code">+973</span></button>
+                      <button type="button" class="phone-country-option" data-code="+968" data-country="om" data-name="Oman"><img class="phone-flag-img" src="https://flagcdn.com/w40/om.png" alt="Oman"><span>Oman</span><span class="code">+968</span></button>
+                      <button type="button" class="phone-country-option" data-code="+44" data-country="gb" data-name="United Kingdom"><img class="phone-flag-img" src="https://flagcdn.com/w40/gb.png" alt="United Kingdom"><span>United Kingdom</span><span class="code">+44</span></button>
+                      <button type="button" class="phone-country-option" data-code="+49" data-country="de" data-name="Germany"><img class="phone-flag-img" src="https://flagcdn.com/w40/de.png" alt="Germany"><span>Germany</span><span class="code">+49</span></button>
+                      <button type="button" class="phone-country-option" data-code="+48" data-country="pl" data-name="Poland"><img class="phone-flag-img" src="https://flagcdn.com/w40/pl.png" alt="Poland"><span>Poland</span><span class="code">+48</span></button>
+                      <button type="button" class="phone-country-option" data-code="+1" data-country="us" data-name="United States"><img class="phone-flag-img" src="https://flagcdn.com/w40/us.png" alt="United States"><span>United States</span><span class="code">+1</span></button>
+                    </div>
+                  </div>
+                  <input id="lf-phone" name="phone" type="tel" autocomplete="tel-national" inputmode="tel" dir="ltr" placeholder="50 123 4567">
+                </div>
+              </div>
+              <div class="lf-field"><label for="lf-type" data-ar="فئة المستثمر">Investor type</label>
+                <select id="lf-type" name="type">
+                  <option value="Sovereign / government-related" data-ar="جهة سيادية أو حكومية">Sovereign or government-related</option>
+                  <option value="Institutional" data-ar="مستثمر مؤسسي">Institutional investor</option>
+                  <option value="Family office" data-ar="مكتب عائلي">Family office</option>
+                  <option value="Strategic corporate" data-ar="شريك استراتيجي">Strategic corporate</option>
+                  <option value="Private investor" data-ar="مستثمر خاص">Private investor</option>
+                </select>
+              </div>
+              <div class="lf-field"><label for="lf-country" data-ar="الدولة">Country</label><input id="lf-country" name="country" type="text" autocomplete="country-name"></div>
+              <div class="lf-field full"><span style="font-size:.72rem;font-weight:600;color:#2E3B35;" id="ticketLabel" data-ar="حجم الاستثمار المتوقَّع">Indicative ticket size</span>
+                <div class="lf-chips" role="radiogroup" aria-labelledby="ticketLabel">
+                  <input type="radio" name="ticket" id="t1" value="< $250K"><label for="t1">&lt; $250K</label>
+                  <input type="radio" name="ticket" id="t2" value="$250K – $1M"><label for="t2">$250K – $1M</label>
+                  <input type="radio" name="ticket" id="t3" value="$1M – $5M"><label for="t3">$1M – $5M</label>
+                  <input type="radio" name="ticket" id="t4" value="$5M+"><label for="t4">$5M+</label>
+                </div>
+              </div>
+              <div class="lf-field full"><label for="lf-msg" data-ar="رسالتك (اختياري)">Message (optional)</label><textarea id="lf-msg" name="message" rows="3"></textarea></div>
+            </div>
+            <div class="lf-turnstile">
+              <div class="cf-turnstile"
+                   data-sitekey="0x4AAAAAAFOZIZy1iLEUpbrH"
+                   data-theme="light"
+                   data-size="flexible"
+                   data-appearance="interaction-only"
+                   data-callback="sakinaTurnstileSuccess"
+                   data-expired-callback="sakinaTurnstileExpired"
+                   data-error-callback="sakinaTurnstileError"></div>
+              <div class="lf-turnstile-note" data-ar="هذا النموذج محمي بواسطة Cloudflare Turnstile.">This form is protected by Cloudflare Turnstile.</div>
+            </div>
+            <div class="lf-foot">
+              <p class="lf-privacy" data-ar="تُستخدم بياناتك للرد على طلبك فقط، وتُعامل بسرية تامة.">Your details are used only to respond to your request and are handled confidentially.</p>
+              <button type="submit" class="btn-live btn-emerald"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 6l-10 7L2 6"/></svg><span data-ar="أرسل الطلب">Send request</span></button>
+            </div>
+            <p class="lf-status" id="lfStatus" role="status" aria-live="polite"></p>
+          </form>
+          <div class="lf-success" id="lfSuccess">
+            <div class="lf-success-icon"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#00A86B" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L19 7"/></svg></div>
+            <h3 data-ar="شكرًا لك.">Thank you.</h3>
+            <p data-ar="تم استلام طلبك. هل تودّ اختيار موعد لمكالمة مع المؤسِّسة الآن؟">Your request has been received. Would you like to pick a time for a call with the founder now?</p>
+            <button type="button" class="btn-live btn-gold" id="lfBookNow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg><span data-ar="اختر موعدًا">Choose a time</span></button>
+          </div>
+        </div>
+
+        <div class="desk-panel" role="tabpanel" id="panel-call" aria-labelledby="tab-call" hidden>
+          <div class="cal-intro">
+            <img class="js-founder-photo" src="assets/founder.jpg" alt="" width="52" height="52" loading="lazy">
+            <div><strong data-ar="مكالمة تعريفية مع أليسا زاهافالكا">Intro call with Alisa Zahavalka</strong><span data-ar="اختر اليوم والساعة من المواعيد المتاحة — بتوقيتك المحلي">Pick a day and time from available slots — shown in your local time</span></div>
+          </div>
+          <div class="cal-embed" id="calEmbed"><span data-ar="جارٍ تحميل التقويم…">Loading calendar…</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STICKY INVESTOR BAR -->
+<div class="ib-sticky" id="ibSticky" role="region" aria-label="Quick investor contact">
+  <img class="js-founder-photo" src="assets/founder.jpg" alt="" width="44" height="44" loading="lazy">
+  <div class="ib-s-text">
+    <strong data-ar="تحدّث مع المؤسِّسة">Talk to the founder</strong>
+    <span data-ar="احصل على ملف المستثمر أو احجز مكالمة">Get the investor brief or book a call</span>
+  </div>
+  <form class="ib-s-form" id="quickForm" novalidate>
+    <label for="qf-email" class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);" data-ar="البريد الإلكتروني">Email</label>
+    <input id="qf-email" type="email" dir="ltr" autocomplete="email" placeholder="your@email.com" required>
+    <button type="submit" class="btn-live btn-gold"><span data-ar="أرسل لي الملف">Send me the brief</span></button>
+  </form>
+  <span class="ib-s-msg" id="qfMsg" role="status" aria-live="polite"></span>
+  <div class="ib-s-actions">
+    <button type="button" class="btn-live btn-emerald js-calendly"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg><span data-ar="احجز مكالمة">Book a call</span></button>
+    <a class="btn-live btn-outline js-platform" href="https://app.sakinair.com" target="_blank" rel="noopener"><span data-ar="المنصّة">Platform</span></a>
+  </div>
+  <button type="button" class="ib-s-close" id="ibClose" aria-label="Close">✕</button>
+</div>
+
+<footer>
+  <div class="footer-logo" data-ar="سكينة ✦">Sakina ✦</div>
+  <div class="footer-copy" data-ar="© 2026 منصّة سكينة للطيران. المملكة العربية السعودية.">© 2026 Sakina Aviation Platform. Kingdom of Saudi Arabia.</div>
+  <div class="footer-tag" data-ar="متوافقة مع رؤية 2030">Vision 2030 Aligned</div>
+</footer>
+
+<script>
+  const nav = document.getElementById('mainNav');
+  window.addEventListener('scroll', () => { nav.classList.toggle('scrolled', window.scrollY > 60); });
+  const reveals = document.querySelectorAll('.reveal');
+  const obs = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if(e.isIntersecting){ e.target.classList.add('visible'); obs.unobserve(e.target); } });
+  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+  reveals.forEach(el => obs.observe(el));
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', e => {
+      const t = document.querySelector(a.getAttribute('href'));
+      if(t){ e.preventDefault(); t.scrollIntoView({ behavior:'smooth', block:'start' }); }
+    });
+  });
+
+  /* ══ BACKGROUND MUSIC ══
+     The track is ~8.7 MB, so it is not fetched until the visitor
+     actually interacts with the page — the first click, scroll or
+     keypress loads it and starts playback. */
+  const musicBtn = document.getElementById('musicToggle');
+  const bgMusic  = document.getElementById('bgMusic');
+
+  const MUSIC_LABELS = {
+    en: { play: 'Play background music', pause: 'Pause background music' },
+    ar: { play: 'تشغيل الموسيقى الخلفية', pause: 'إيقاف الموسيقى الخلفية' }
+  };
+
+  function ensureSource() {
+    if (!bgMusic.getAttribute('src')) {
+      bgMusic.setAttribute('src', bgMusic.dataset.src);
+    }
+  }
+
+  function startMusic() {
+    ensureSource();
+    bgMusic.volume = 0.5;
+    bgMusic.play().then(() => {
+      musicBtn.classList.add('playing');
+      musicBtn.setAttribute('aria-label', MUSIC_LABELS[currentLang].pause);
+    }).catch(() => {});
+  }
+
+  function stopMusic() {
+    bgMusic.pause();
+    musicBtn.classList.remove('playing');
+    musicBtn.setAttribute('aria-label', MUSIC_LABELS[currentLang].play);
+  }
+
+  const unlockEvents = ['click', 'touchstart', 'scroll', 'keydown'];
+  function unlockMusic() {
+    unlockEvents.forEach(evt => document.removeEventListener(evt, unlockMusic));
+    startMusic();
+  }
+  unlockEvents.forEach(evt => document.addEventListener(evt, unlockMusic, { once: true, passive: true }));
+
+  musicBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    if (bgMusic.paused) { startMusic(); } else { stopMusic(); }
+  });
+
+  /* ══ LANGUAGE SWITCHER (EN / AR) ══ */
+  const TITLES = {
+    en: 'Sakina — Premium Aviation & Tourism Platform',
+    ar: 'سكينة — منصّة الطيران والسياحة الفاخرة'
+  };
+  const META_DESC = {
+    en: 'Sakina — a premium Saudi airline and tourism activation platform designed to accelerate Vision 2030.',
+    ar: 'سكينة — شركة طيران سعودية فاخرة ومنصّة لتنشيط السياحة، مصمَّمة لتسريع رؤية 2030.'
+  };
+
+  const langBtn = document.getElementById('langToggle');
+  const i18nNodes = document.querySelectorAll('[data-ar]');
+  // Cache the English original of every translatable node
+  i18nNodes.forEach(el => { el.dataset.en = el.innerHTML; });
+
+  let currentLang = 'en';
+
+  function setLang(lang, persist) {
+    currentLang = (lang === 'ar') ? 'ar' : 'en';
+    const isAr = currentLang === 'ar';
+
+    document.documentElement.lang = currentLang;
+    document.documentElement.dir  = isAr ? 'rtl' : 'ltr';
+    document.title = TITLES[currentLang];
+
+    const desc = document.querySelector('meta[name="description"]');
+    if (desc) desc.setAttribute('content', META_DESC[currentLang]);
+
+    i18nNodes.forEach(el => {
+      el.innerHTML = isAr ? el.dataset.ar : el.dataset.en;
+    });
+
+    langBtn.textContent = isAr ? 'English' : 'عربي';
+    musicBtn.setAttribute('aria-label',
+      bgMusic.paused ? MUSIC_LABELS[currentLang].play : MUSIC_LABELS[currentLang].pause);
+
+    if (persist) {
+      try { localStorage.setItem('sakina-lang', currentLang); } catch (err) {}
+      const url = new URL(window.location);
+      url.searchParams.set('lang', currentLang);
+      history.replaceState(null, '', url);
+    }
+  }
+
+  langBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    setLang(currentLang === 'en' ? 'ar' : 'en', true);
+  });
+
+  // Initial language: ?lang= in the URL, then saved choice, then browser language
+  (function initLang() {
+    const fromUrl = new URLSearchParams(window.location.search).get('lang');
+    let saved = null;
+    try { saved = localStorage.getItem('sakina-lang'); } catch (err) {}
+    const fromBrowser = (navigator.language || '').toLowerCase().startsWith('ar') ? 'ar' : 'en';
+    setLang(fromUrl || saved || fromBrowser, false);
+  })();
+</script>
+
+<script>
+/* ═════════════════ CONFIG — UZUPEŁNIJ ═════════════════ */
+const SAKINA_CONFIG = {
+  calendlyUrl:  "https://calendly.com/YOUR-CALENDLY/investor-call", // link do wydarzenia w Calendly
+  platformUrl:  "https://app.sakinair.com",                         // link do MVP / aplikacji
+  leadEndpoint: "https://script.google.com/macros/s/AKfycbyb3huLXFxddAnWM2jNBFlgT9ltaSFpJI_pZy1OjM8pYokx_LZz776N_6Fnf92GLtQv/exec", // Google Apps Script → Google Sheets
+  leadEmail:    "contact@sakinair.com",                             // fallback contact address
+  founderPhoto: "assets/founder.jpg"
+};
+/* ═══════════════════════════════════════════════════════ */
+
+(function(){
+  const C = SAKINA_CONFIG, root = document.documentElement, body = document.body;
+  const T = {
+    en:{ required:"Please enter your name, organisation and a valid email.", phoneInvalid:"Please enter a valid international phone number or leave the phone field empty.", captcha:"Please complete the security check before sending.", captchaError:"The security check could not be completed. Please try again.", sending:"Sending…", error:"We couldn't send your request. Please try again or email ", mailOpened:"Your email app has opened with the request ready to send.", quickOk:"Thank you — the brief is on its way.", quickErr:"Enter a valid email.", close:"Close" },
+    ar:{ required:"يرجى إدخال الاسم والجهة وبريد إلكتروني صحيح.", phoneInvalid:"يرجى إدخال رقم هاتف دولي صحيح أو ترك خانة الهاتف فارغة.", captcha:"يرجى إكمال التحقق الأمني قبل الإرسال.", captchaError:"تعذّر إكمال التحقق الأمني. يرجى المحاولة مجددًا.", sending:"جارٍ الإرسال…", error:"تعذّر إرسال طلبك. يرجى المحاولة مجددًا أو مراسلتنا على ", mailOpened:"تم فتح بريدك الإلكتروني والطلب جاهز للإرسال.", quickOk:"شكرًا لك — الملف في طريقه إليك.", quickErr:"يرجى إدخال بريد إلكتروني صحيح.", close:"إغلاق" }
+  };
+  const L = () => (root.lang === 'ar' ? 'ar' : 'en');
+
+  window.__sakinaTurnstileToken = '';
+  window.sakinaTurnstileSuccess = function(token){
+    window.__sakinaTurnstileToken = token || '';
+  };
+  window.sakinaTurnstileExpired = function(){
+    window.__sakinaTurnstileToken = '';
+  };
+  window.sakinaTurnstileError = function(){
+    window.__sakinaTurnstileToken = '';
+  };
+  function resetSakinaTurnstile(){
+    window.__sakinaTurnstileToken = '';
+    try { if (window.turnstile) window.turnstile.reset(); } catch(e) {}
+  }
+  const t = k => T[L()][k];
+
+  /* links & photos */
+  document.querySelectorAll('.js-platform').forEach(a => { a.href = C.platformUrl; });
+  document.querySelectorAll('.js-founder-photo').forEach(img => { img.src = C.founderPhoto; });
+
+  /* ── International phone / WhatsApp ── */
+  const phoneInput = document.getElementById('lf-phone');
+  const phoneCode = document.getElementById('lf-phone-code');
+  const phoneCountryBtn = document.getElementById('lf-phone-country');
+  const phoneMenu = document.getElementById('lf-phone-menu');
+  const phoneFlag = document.getElementById('lf-phone-flag');
+  const phoneDial = document.getElementById('lf-phone-dial');
+  if (phoneCountryBtn && phoneMenu) {
+    phoneCountryBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const open = phoneMenu.classList.toggle('open');
+      phoneCountryBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    phoneMenu.querySelectorAll('.phone-country-option').forEach(opt => {
+      opt.addEventListener('click', () => {
+        phoneCode.value = opt.dataset.code;
+        phoneFlag.src = 'https://flagcdn.com/w40/' + opt.dataset.country + '.png';
+        phoneFlag.alt = opt.dataset.name || '';
+        phoneDial.textContent = opt.dataset.code;
+        phoneMenu.classList.remove('open');
+        phoneCountryBtn.setAttribute('aria-expanded','false');
+        phoneInput.focus();
+      });
+    });
+    document.addEventListener('click', () => {
+      phoneMenu.classList.remove('open');
+      phoneCountryBtn.setAttribute('aria-expanded','false');
+    });
+  }
+  function normalisePhone(){
+    if (!phoneInput) return '';
+    const raw = phoneInput.value.trim();
+    if (!raw) return '';
+    const compact = raw.replace(/[^0-9+]/g, '');
+    if (compact.startsWith('+')) return '+' + compact.slice(1).replace(/\D/g, '');
+    let local = compact.replace(/\D/g, '').replace(/^0+/, '');
+    return (phoneCode ? phoneCode.value : '+966') + local;
+  }
+
+  /* ── Calendly (lazy-loaded) ── */
+  let calPromise = null;
+  function loadCalendly(){
+    if (window.Calendly) return Promise.resolve();
+    if (calPromise) return calPromise;
+    calPromise = new Promise((res, rej) => {
+      const css = document.createElement('link');
+      css.rel = 'stylesheet'; css.href = 'https://assets.calendly.com/assets/external/widget.css';
+      document.head.appendChild(css);
+      const s = document.createElement('script');
+      s.src = 'https://assets.calendly.com/assets/external/widget.js'; s.async = true;
+      s.onload = () => res(); s.onerror = () => { calPromise = null; rej(); };
+      document.head.appendChild(s);
+    });
+    return calPromise;
+  }
+  function calUrl(){
+    const u = new URL(C.calendlyUrl);
+    u.searchParams.set('hide_gdpr_banner','1');
+    u.searchParams.set('primary_color','00a86b');
+    return u.toString();
+  }
+  let prefill = {};
+  function openCalendlyPopup(){
+    loadCalendly().then(() => {
+      Calendly.initPopupWidget({ url: calUrl(), prefill });
+    }).catch(() => window.open(C.calendlyUrl, '_blank', 'noopener'));
+  }
+  let inlineDone = false;
+  function mountInline(){
+    if (inlineDone) return;
+    const box = document.getElementById('calEmbed');
+    loadCalendly().then(() => {
+      inlineDone = true;
+      box.innerHTML = ''; box.classList.add('loaded');
+      Calendly.initInlineWidget({ url: calUrl(), parentElement: box, prefill });
+    }).catch(() => {
+      box.innerHTML = '<a class="btn-live btn-emerald" target="_blank" rel="noopener" href="'+C.calendlyUrl+'">Calendly</a>';
+    });
+  }
+  document.querySelectorAll('.js-calendly').forEach(b => b.addEventListener('click', e => { e.stopPropagation(); openCalendlyPopup(); }));
+
+  /* ── tabs ── */
+  const tabs = [document.getElementById('tab-lead'), document.getElementById('tab-call')];
+  function selectTab(i, focus){
+    tabs.forEach((tb, j) => {
+      const on = i === j;
+      tb.setAttribute('aria-selected', on); tb.tabIndex = on ? 0 : -1;
+      document.getElementById(tb.getAttribute('aria-controls')).hidden = !on;
+    });
+    if (focus) tabs[i].focus();
+    if (i === 1) mountInline();
+  }
+  tabs.forEach((tb, i) => {
+    tb.addEventListener('click', e => { e.stopPropagation(); selectTab(i); });
+    tb.addEventListener('keydown', e => {
+      if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') { e.preventDefault(); selectTab(i === 0 ? 1 : 0, true); }
+    });
+  });
+
+  /* "Leave details" buttons → scroll to desk + focus */
+  function goToLead(){
+    selectTab(0);
+    document.getElementById('invest').scrollIntoView({ behavior:'smooth', block:'start' });
+    setTimeout(() => document.getElementById('lf-name').focus({ preventScroll:true }), 700);
+  }
+  document.querySelectorAll('.js-lead').forEach(b => b.addEventListener('click', e => { e.stopPropagation(); goToLead(); }));
+
+  /* ── attribution / Google Ads tracking ── */
+  const TRACKING_KEYS = ['gclid','gbraid','wbraid','utm_source','utm_medium','utm_campaign','utm_term','utm_content'];
+
+  function safeStoreGet(key){
+    try { return localStorage.getItem(key) || ''; } catch(err) { return ''; }
+  }
+  function safeStoreSet(key, value){
+    try { if (value) localStorage.setItem(key, value); } catch(err) {}
+  }
+
+  (function captureAttribution(){
+    const p = new URLSearchParams(window.location.search);
+    TRACKING_KEYS.forEach(key => {
+      const value = p.get(key);
+      if (value) safeStoreSet('sakina_' + key, value);
+    });
+    if (!safeStoreGet('sakina_landing_page')) safeStoreSet('sakina_landing_page', window.location.href);
+    if (!safeStoreGet('sakina_referrer') && document.referrer) safeStoreSet('sakina_referrer', document.referrer);
+  })();
+
+  function getTrackingData(){
+    const p = new URLSearchParams(window.location.search);
+    const tracking = {};
+    TRACKING_KEYS.forEach(key => {
+      tracking[key] = p.get(key) || safeStoreGet('sakina_' + key) || '';
+    });
+    tracking.landing_page = safeStoreGet('sakina_landing_page') || window.location.href;
+    tracking.referrer = safeStoreGet('sakina_referrer') || document.referrer || '';
+    return tracking;
+  }
+
+  /* ── lead submission ── */
+  async function sendLead(data){
+    data.turnstileToken = window.__sakinaTurnstileToken || '';
+    Object.assign(data, getTrackingData());
+
+    // Map the existing Sakina form fields to the Google Sheet schema.
+    const fullName = (data.name || '').trim();
+    const nameParts = fullName ? fullName.split(/\s+/) : [];
+    data.firstName = data.firstName || (nameParts[0] || '');
+    data.lastName  = data.lastName  || (nameParts.length > 1 ? nameParts.slice(1).join(' ') : '');
+    data.company   = data.company   || data.organisation || '';
+
+    // Keep investor type and ticket size inside the Message column for now.
+    const originalMessage = (data.message || '').trim();
+    const meta = [];
+    if (data.investorType) meta.push('Investor type: ' + data.investorType);
+    if (data.ticket) meta.push('Indicative ticket: ' + data.ticket);
+    data.message = [originalMessage, ...meta].filter(Boolean).join('\n');
+
+    data.language = L();
+    data.page = location.href;
+    data.submittedAt = new Date().toISOString();
+
+    if (C.leadEndpoint) {
+      // text/plain keeps this a simple cross-origin POST (no preflight).
+      // no-cors is intentional for Google Apps Script web apps: the request is sent
+      // even though the browser does not expose the cross-origin response body.
+      await fetch(C.leadEndpoint, {
+        method:'POST',
+        mode:'no-cors',
+        headers:{ 'Content-Type':'text/plain;charset=utf-8' },
+        body: JSON.stringify(data)
+      });
+      return 'sent';
+    }
+
+    const lines = Object.keys(data).map(k => k + ': ' + data[k]).join('\n');
+    location.href = 'mailto:' + C.leadEmail + '?subject=' + encodeURIComponent('Sakina — investor lead (' + (data.source||'form') + ')') + '&body=' + encodeURIComponent(lines);
+    return 'mail';
+  }
+
+  const form = document.getElementById('leadForm'), status = document.getElementById('lfStatus');
+  form.addEventListener('submit', async e => {
+    e.preventDefault();
+    const f = form.elements;
+    if (!f.name.value.trim() || !f.organisation.value.trim() || !f.email.value || !f.email.checkValidity()) {
+      status.className = 'lf-status err'; status.textContent = t('required'); return;
+    }
+    let phoneValue = normalisePhone();
+    if (phoneValue && !/^\+[1-9]\d{6,14}$/.test(phoneValue)) {
+      status.className = 'lf-status err'; status.textContent = t('phoneInvalid'); phoneInput.focus(); return;
+    }
+    if (!window.__sakinaTurnstileToken) {
+      status.className = 'lf-status err'; status.textContent = t('captcha'); return;
+    }
+    const tk = form.querySelector('input[name="ticket"]:checked');
+    const data = { source:'investor-desk', name:f.name.value.trim(), organisation:f.organisation.value.trim(), email:f.email.value.trim(),
+      phone:phoneValue, investorType:f.type.value, country:f.country.value.trim(), ticket: tk ? tk.value : '', message:f.message.value.trim() };
+    status.className = 'lf-status'; status.textContent = t('sending');
+    try {
+      const how = await sendLead(data);
+      prefill = { name: data.name, email: data.email, customAnswers: { a1: data.organisation } };
+      if (how === 'mail') { status.className = 'lf-status ok'; status.textContent = t('mailOpened'); }
+      form.style.display = 'none'; document.getElementById('lfSuccess').classList.add('show');
+    } catch(err) {
+      resetSakinaTurnstile();
+      status.className = 'lf-status err'; status.textContent = t('error') + C.leadEmail;
+    }
+  });
+  document.getElementById('lfBookNow').addEventListener('click', e => { e.stopPropagation(); selectTab(1); });
+
+  /* quick email capture in sticky bar */
+  const qf = document.getElementById('quickForm'), qMsg = document.getElementById('qfMsg'), sticky = document.getElementById('ibSticky');
+  qf.addEventListener('submit', async e => {
+    e.preventDefault();
+    const em = document.getElementById('qf-email');
+    if (!em.value || !em.checkValidity()) { em.focus(); em.placeholder = t('quickErr'); em.value=''; return; }
+    if (!window.__sakinaTurnstileToken) {
+      const mainEmail = document.getElementById('lf-email');
+      if (mainEmail) mainEmail.value = em.value.trim();
+      qMsg.textContent = t('captcha');
+      goToLead();
+      return;
+    }
+    try {
+      await sendLead({ source:'sticky-bar', email: em.value.trim() });
+      prefill = { email: em.value.trim() };
+      qMsg.textContent = t('quickOk');
+      sticky.classList.add('sent');
+      resetSakinaTurnstile();
+    } catch(err){
+      resetSakinaTurnstile();
+      qMsg.textContent = t('error') + C.leadEmail;
+      sticky.classList.add('sent');
+    }
+  });
+
+  /* ── top bar / sticky bar visibility ── */
+  let dismissed = false;
+  try { dismissed = sessionStorage.getItem('sakina-bar-dismissed') === '1'; } catch(e){}
+  const invest = document.getElementById('invest');
+  let investVisible = false;
+  new IntersectionObserver(es => { es.forEach(x => { investVisible = x.isIntersecting; }); update(); }, { threshold: 0.12 }).observe(invest);
+  function update(){
+    const y = window.scrollY;
+    body.classList.toggle('topbar-hidden', y > 80);
+    body.classList.toggle('sticky-on', !dismissed && y > window.innerHeight * 0.6 && !investVisible);
+  }
+  window.addEventListener('scroll', update, { passive:true });
+  update();
+  document.getElementById('ibClose').addEventListener('click', e => {
+    e.stopPropagation(); dismissed = true; update();
+    try { sessionStorage.setItem('sakina-bar-dismissed','1'); } catch(err){}
+  });
+
+  /* ── animated counters in hero ── */
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (!reduce) {
+    document.querySelectorAll('[data-count]').forEach(el => {
+      const end = +el.dataset.count, pre = el.dataset.prefix || '', suf = el.dataset.suffix || '';
+      const dur = 1800, start = performance.now() + 1300;
+      el.textContent = pre + '0' + suf;
+      function tick(now){
+        const p = Math.min(Math.max((now - start) / dur, 0), 1), e = 1 - Math.pow(1 - p, 3);
+        el.textContent = pre + Math.round(end * e) + suf;
+        if (p < 1) requestAnimationFrame(tick);
+      }
+      requestAnimationFrame(tick);
+    });
+  }
+
+  /* ── keep aria-labels in sync with language ── */
+  new MutationObserver(() => {
+    document.getElementById('ibClose').setAttribute('aria-label', t('close'));
+  }).observe(root, { attributes:true, attributeFilter:['lang'] });
+})();
+</script>
+
+</body></html>
